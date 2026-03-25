@@ -1,0 +1,169 @@
+/* ProductCardsSection - structured, consistent media rendering */
+
+.os-product-section {
+	background: #f9f9f7;
+}
+
+.os-product-title {
+	font-family: Montserrat, sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	color: #333;
+	line-height: 1.2;
+	letter-spacing: -0.01em;
+	text-align: center;
+	margin-bottom: 48px;
+}
+
+.os-product-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 24px;
+}
+
+@media (min-width: 768px) {
+	.os-product-grid {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+}
+
+.os-card {
+	background: #fff;
+	border: 1px solid #e5e7eb;
+	border-radius: 16px;
+	overflow: hidden;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.os-media {
+	position: relative;
+	background: transparent;
+	border-radius: 16px 16px 0 0;
+	/* New PNG mockups need more vertical room and should not be cropped */
+	aspect-ratio: auto;
+	min-height: 220px;
+	overflow: hidden;
+
+	/* Premium frame feel */
+	border-bottom: 1px solid rgba(229, 231, 235, 0.9);
+	isolation: isolate;
+}
+
+@media (min-width: 768px) {
+	.os-media {
+		min-height: 240px;
+	}
+}
+
+.os-mediaImage {
+	width: 100%;
+	height: 100%;
+	display: block;
+	/* keep defaults, per-image inline styles override to contain */
+	object-fit: cover;
+	border-bottom: none;
+}
+
+/* Slightly scale down the contained mockup images (capp5/6/7) */
+.os-mediaImage--contained {
+	width: 92%;
+	height: 92%;
+	margin: 0 auto;
+}
+
+/* Adds a subtle glassy background so transparent PNG edges look clean */
+.os-media::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background:
+		radial-gradient(700px 320px at 20% 20%, rgba(45, 71, 44, 0.12) 0%, rgba(45, 71, 44, 0.00) 60%),
+		radial-gradient(620px 300px at 80% 10%, rgba(197, 160, 89, 0.16) 0%, rgba(197, 160, 89, 0.00) 58%),
+		linear-gradient(180deg, rgba(255, 255, 255, 0.82) 0%, rgba(249, 249, 247, 0.55) 100%);
+	pointer-events: none;
+	z-index: 0;
+}
+
+.os-mediaOverlay {
+	position: absolute;
+	inset: 0;
+	background:
+		linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0) 40%),
+		linear-gradient(0deg, rgba(0, 0, 0, 0.06) 0%, rgba(0, 0, 0, 0) 48%);
+	pointer-events: none;
+	z-index: 1;
+}
+
+/* Make sure image and badges are above backgrounds */
+.os-media > img {
+	position: relative;
+	z-index: 2;
+}
+
+.os-badge {
+	position: absolute;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 9999px;
+	background: rgba(255, 255, 255, 0.92);
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.14);
+	backdrop-filter: blur(8px);
+	border: 1px solid rgba(255, 255, 255, 0.55);
+	z-index: 3;
+}
+
+.os-badgeIcon {
+	color: #2d472c;
+}
+
+.os-cardBody {
+	padding: 24px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	flex: 1;
+}
+
+.os-cardTitle {
+	font-family: Montserrat, sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #333;
+}
+
+.os-cardDesc {
+	font-size: 14px;
+	color: #6b7280;
+	line-height: 1.6;
+}
+
+.os-cardFooter {
+	margin-top: auto;
+	padding-top: 16px;
+}
+
+.os-cardCta {
+	width: 100%;
+	height: 44px;
+	border-radius: 8px;
+	font-size: 14px;
+	font-weight: 600;
+	background: #2d472c;
+	color: #fff;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	transition: opacity 0.2s ease;
+}
+
+.os-cardCta:hover {
+	opacity: 0.9;
+}

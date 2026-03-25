@@ -1,0 +1,540 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "solutions": "Solutions",
+    "applications": "Applications",
+    "contact": "Contact",
+    "about": "À propos",
+    "bookDemo": "Réserver une démo",
+    "apps": {
+      "teacher": "App Enseignant",
+      "parent": "App Parent",
+      "assistant": "Dashboard Assistant",
+      "manager": "Dashboard Manager"
+    }
+  },
+  "language": {
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية"
+  },
+  "common": {
+    "brand": "OmniSchool",
+    "language": "Langue"
+  },
+  "home": {
+    "hero": {
+      "title": "La solution complète pour gérer votre école",
+      "subtitle": "OmniSchool centralise toute la gestion scolaire en une seule plateforme — Administration, Enseignants, Parents et Élèves.",
+      "ctaBookDemo": "Réserver une démo",
+      "ctaDiscover": "Découvrir la solution",
+      "mockups": {
+        "admin": {
+          "alt": "Dashboard Admin",
+          "badge": "Dashboard Admin",
+          "title": "Pilotage & Statistiques",
+          "subtitle": "Suivi des demandes, conversion, tendances"
+        },
+        "teacher": {
+          "alt": "App Enseignant",
+          "badge": "App Enseignant",
+          "title": "Cours & Communication",
+          "subtitle": "Notes, devoirs, absences, messages"
+        },
+        "parent": {
+          "alt": "App Parent",
+          "badge": "App Parent",
+          "title": "Suivi des enfants",
+          "subtitle": "Présences, notes, devoirs, notifications"
+        },
+        "mobile": {
+          "alt": "Aperçu"
+        }
+      }
+    },
+    "bookDemo": {
+      "title": "Prêt à transformer votre école ?",
+      "subtitle": "Réservez une démo gratuite et découvrez comment OmniSchool peut simplifier votre gestion scolaire.",
+      "cta": "Réserver ma démo gratuite",
+      "trust": {
+        "fastResponse": "Réponse sous 24h",
+        "freeDemo": "Démo gratuite",
+        "noCommitment": "Sans engagement"
+      }
+    },
+    "products": {
+      "title": "Nos Accès",
+      "admin": {
+        "title": "Dashboard Administrateur",
+        "description": "Gérez toute l'école depuis un tableau de bord centralisé. Élèves, enseignants, finances et emploi du temps.",
+        "cta": "Découvrir le dashboard",
+        "imageAlt": "Dashboard Administrateur"
+      },
+      "teacher": {
+        "title": "Accès Enseignant",
+        "description": "Présences intelligentes, notes, devoirs et syllabus — tout ce dont l'enseignant a besoin sur mobile.",
+        "cta": "Découvrir l'app enseignant",
+        "imageAlt": "Application Enseignant"
+      },
+      "parent": {
+        "title": "Accès Parent",
+        "description": "Suivez la scolarité de votre enfant en temps réel. Notes, absences et actualités scolaires.",
+        "cta": "Découvrir l'app parent",
+        "imageAlt": "Application Parent"
+      }
+    },
+    "values": {
+      "badge": "SOLUTION COMPLÈTE",
+      "title": "Des Processus Digitaux pour Toute l'École",
+      "subtitle": "Une plateforme complète qui supporte élèves, parents, enseignants et administration — à chaque étape de la vie scolaire.",
+      "cards": {
+        "simplicity": {
+          "title": "Simplicité",
+          "description": "La gestion scolaire ne devrait pas être compliquée. OmniSchool est conçu pour être intuitif et facile à utiliser, afin que les enseignants et les administrateurs puissent se concentrer sur l'éducation plutôt que sur la technologie."
+        },
+        "transparency": {
+          "title": "Transparence",
+          "description": "Des informations accessibles et partagées entre tous les acteurs, en temps réel."
+        },
+        "innovation": {
+          "title": "Innovation",
+          "description": "Des outils modernes pour simplifier la planification, améliorer la communication et automatiser les processus."
+        },
+        "trust": {
+          "title": "Confiance",
+          "description": "Sécurité, confidentialité et contrôle des accès par rôle pour protéger les données de l'école."
+        }
+      }
+    },
+    "adminOverview": {
+      "imageAlt": "Aperçu Omnischool - Administrateur",
+      "label": "POUR L'ADMINISTRATEUR",
+      "title": "Toute la Gestion Scolaire en Un Seul Endroit",
+      "description": "Des processus scolaires digitaux bien conçus sont la base d'une école efficace. Omnischool centralise tout ce dont votre équipe a besoin — élèves, finances, emploi du temps et communication — dans une plateforme simple et puissante."
+    },
+    "assistantOverview": {
+      "imageAlt": "Aperçu Omnischool - Assistant",
+      "label": "POUR L'ASSISTANT",
+      "title": "Toute l'Administration en Un Seul Endroit",
+      "p1": "Omnischool est un véritable assistant pour les équipes administratives. Gérez tous les processus de l'école depuis un espace centralisé — inscriptions, finances, emploi du temps et communication.",
+      "p2": "Grâce aux modules de gestion des élèves, des enseignants et de la planification, Omnischool permet des flux de travail plus fluides, économisant temps et ressources.",
+      "p3": "Omnischool vous offre également une précision accrue dans la gestion des données, créant une base d'information fiable et unifiée pour toutes les décisions administratives."
+    },
+    "solutionHero": {
+      "badge": "SOLUTION COMPLÈTE",
+      "title": "Des Processus Digitaux pour Toute l'École",
+      "subtitle": "Une plateforme complète qui supporte élèves, parents, enseignants et administration — à chaque étape de la vie scolaire.",
+      "cta": "Réserver une Démo",
+      "cards": {
+        "admin": { "alt": "Dashboard Admin", "badge": "Dashboard Admin" },
+        "timetable": { "alt": "Emploi du Temps IA", "badge": "Emploi du Temps IA" },
+        "teacher": { "alt": "App Enseignant", "badge": "App Enseignant" },
+        "parent": { "alt": "App Parent", "badge": "App Parent" }
+      }
+    },
+    "userRoles": {
+      "title": "Conçu pour Chaque Utilisateur",
+      "subtitle": "Omnischool s'adapte à chaque rôle dans l'école. Directeur, assistant, enseignant ou parent — chaque utilisateur dispose d'un espace pensé pour ses besoins spécifiques.",
+      "roles": {
+        "admin": "Dashboard Admin",
+        "teacher": "App Enseignant",
+        "parent": "App Parent",
+        "manager": "Dashboard Manager"
+      }
+    },
+    "overviewSection": {
+      "imageAlt": "École tunisienne",
+      "title": "La solution complète pour gérer votre école privée",
+      "features": [
+        "Gestion des élèves, des enseignants et des parents",
+        "Emploi du temps intelligent avec assistant IA",
+        "Finance complète — frais scolaires, salaires, fournisseurs",
+        "Matières, examens, notes et bulletins",
+        "Services du campus — transport, cantine, impression, stock",
+        "Communication école ↔ enseignants ↔ parents",
+        "Application mobile enseignant — présence, devoirs, notes",
+        "Application mobile parent — suivi complet de la scolarité",
+        "Dashboard manager — analytics, validations, rapports"
+      ]
+    },
+    "timeForTeaching": {
+      "mockupTitle": "OmniSchool • Enseignants",
+      "imageAlt": "Aperçu de l'application OmniSchool pour enseignants",
+      "notifications": {
+        "timetableUpdated": "Emploi du temps mis à jour",
+        "attendanceRecorded": "10 présences enregistrées"
+      },
+      "title": "Gagnez du temps pour enseigner",
+      "subtitle": "Les enseignants passent trop de temps sur les tâches administratives. OmniSchool automatise les présences, les notes et la communication afin que chaque minute compte en classe.",
+      "stats": [
+        { "number": "3x", "label": "Moins de paperasse" },
+        { "number": "80%", "label": "Temps gagné" },
+        { "number": "100%", "label": "Données centralisées" }
+      ]
+    },
+    "vision": {
+      "badge": "NOTRE VISION",
+      "title": "La technologie au service de l’éducation",
+      "p1": "OmniSchool est né d’une conviction : redonner du temps aux écoles pour se concentrer sur l’essentiel — la réussite et l’épanouissement des élèves.",
+      "p2": "Inspirée des meilleures pratiques scandinaves, la plateforme simplifie l’administration et renforce la collaboration entre la direction, les enseignants et les familles.",
+      "p3": "En réunissant gestion, communication et planification au même endroit, OmniSchool aide les écoles à travailler sereinement — et remet l’apprentissage au centre du quotidien.",
+      "stats": [
+        { "value": "+50", "label": "Écoles ciblées" },
+        { "value": "100%", "label": "Tunisien & local" },
+        { "value": "1", "label": "Plateforme complète" }
+      ]
+    }
+  },
+  "teacherApp": {
+    "hero": {
+      "badge": "APPLICATION ENSEIGNANT",
+      "title": "L'Application Mobile pour les Enseignants",
+      "description": "OmniSchool - Enseignant est une application mobile complète conçue pour simplifier la gestion de la classe et des tâches pédagogiques. Elle permet aux enseignants de suivre intelligemment les présences, de planifier le syllabus et de consulter les informations détaillées des étudiants. L’application offre également la possibilité de publier des devoirs avec pièces jointes et de suivre les soumissions en temps réel.\n\nElle intègre un calendrier intelligent pour organiser l’emploi du temps ainsi qu’un système centralisé pour gérer les demandes administratives comme les congés ou certificats. La saisie des notes est rapide et sécurisée grâce à des mécanismes de validation. Enfin, un centre de notifications intelligent et un profil professionnel personnalisable assurent une expérience fluide et complète.",
+      "ctaFeatures": "Voir les Fonctionnalités",
+      "mockupTitle": "OmniSchool • Enseignants",
+      "imageAlt": "Application Enseignant OmniSchool"
+    },
+    "preview": {
+      "badge": "APERÇU",
+      "title": "Les écrans de l'application"
+    },
+    "featuresSection": { "badge": "FONCTIONNALITÉS", "title": "Tout ce dont l'Enseignant a Besoin" },
+    "features": {
+      "smartAttendance": { "title": "Présences Intelligentes", "description": "Marquez les présences par classe en quelques secondes" },
+      "syllabus": { "title": "Gestion du Syllabus", "description": "Planifiez et suivez votre programme par matière" },
+      "grades": { "title": "Saisie des Notes", "description": "Entrez les notes CC1, CC2 et examens finaux" },
+      "homework": { "title": "Publication des Devoirs", "description": "Partagez les devoirs avec les élèves et parents" },
+      "timetable": { "title": "Emploi du Temps", "description": "Consultez votre planning hebdomadaire en temps réel" },
+      "requests": { "title": "Demandes & Requêtes", "description": "Soumettez des demandes à l'administration" }
+    },
+    "screens": {
+      "calendar": "Calendrier de l'enseignant",
+      "profile": "Profil enseignant",
+      "attendanceSheet": "E-fiche de présence",
+      "homeworkPublish": "Publier un homework en ligne",
+      "contactAdmin": "Contacter l'administration"
+    },
+    "cta": {
+      "title": "Prêt à Simplifier votre Travail?",
+      "subtitle": "Découvrez comment Omnischool peut transformer votre quotidien d'enseignant",
+      "button": "Réserver une Démo"
+    }
+  },
+  "parentApp": {
+    "hero": {
+      "badge": "APPLICATION PARENT",
+      "title": "Restez Connecté à la Scolarité de Votre Enfant",
+      "description": "Le rôle du parent dans OmniSchool Parent est de suivre et superviser tout ce qui concerne la scolarité de son enfant depuis une seule application. Il peut visualiser les informations essentielles comme les devoirs, l’emploi du temps, les notes, les absences, les événements scolaires et les factures. Grâce à une navigation simple, il accède rapidement aux différents modules et peut également interagir avec l’école en envoyant des messages, en réservant des rendez-vous ou en effectuant des paiements. L’application lui envoie des notifications en temps réel pour rester informé des nouveautés importantes. Ainsi, le parent dispose d’une vue claire et centralisée pour accompagner efficacement la vie scolaire de son enfant.",
+      "ctaFeatures": "Voir les Fonctionnalités",
+      "mockupTitle": "OmniSchool • Parents",
+      "imageAlt": "Application Parent OmniSchool"
+    },
+    "preview": {
+      "badge": "APERÇU",
+      "title": "Les écrans de l'application",
+      "screenAlt": "Écran {{title}}"
+    },
+    "featuresSection": { "badge": "FONCTIONNALITÉS", "title": "Tout ce dont le Parent a Besoin" },
+    "features": {
+      "smartAttendance": { "title": "Présences Intelligentes", "description": "Marquéz les présences par classe en quéiques secondes" },
+      "syllabus": { "title": "Gestion du Syllabus", "description": "Planifiez et suives voire programme par matérré" },
+      "grades": { "title": "Saisie des Notes", "description": "Entrez les notes CC1, CC2 et examens finaux" },
+      "homework": { "title": "Publication des Devoirs", "description": "Partagez les devoirs avec les elères et parents" },
+      "timetable": { "title": "Emploi du Temps", "description": "Consultez voire planning hebdomadaire en temps réel" },
+      "requests": { "title": "Demandes & Requétes", "description": "Soumettez des demandes à l’administration" }
+    },
+    "screens": {
+      "smartCalendar": "Calendrier intelligent",
+      "profileSettings": "Profil et paramètres",
+      "meetings": "Réservation de réunion et de rendez-vous",
+      "reportAbsence": "Signaler une absence",
+      "gallery": "Galerie",
+      "notifications": "Notifications",
+      "finance": "Finances",
+      "contactTeacher": "Contacter l’enseignant",
+      "menu": "Menu",
+      "subjects": "Les matières"
+    },
+    "cta": {
+      "title": "Prêt à Simplifier votre Travail?",
+      "subtitle": "Découvrez comment Omnischool peut vous aider à suivre la scolarité de votre enfant",
+      "button": "Réserver une Démo"
+    }
+  },
+  "assistantDashboard": {
+    "hero": {
+      "badge": "DASHBOARD ASSISTANT",
+      "title": "Gérez Toute l'École depuis un Tableau de Bord",
+      "subtitle": "Élèves, enseignants, finances, emploi du temps et campus — tout centralisé pour l'assistant administratif.",
+      "ctaFeatures": "Voir les Fonctionnalités"
+    },
+    "features": {
+      "badge": "FONCTIONNALITÉS",
+      "title": "Tout ce dont l’Assistant a Besoin",
+      "students": { "title": "Gestion des Élèves", "description": "Inscriptions, dossiers, historique et transferts" },
+      "teachers": { "title": "Gestion des Enseignants", "description": "Charges horaires, absences et remplacements" },
+      "timetable": { "title": "Emploi du Temps", "description": "Construction et gestion du planning hebdomadaire" },
+      "pdfReports": { "title": "Rapports PDF", "description": "Génération de bulletins, reçus et factures" },
+      "communication": { "title": "Communication", "description": "Annonces, demandes parents et enseignants" },
+      "finance": { "title": "Finance Complète", "description": "Frais scolaires, salaires, fournisseurs et rapports" }
+    },
+    "screens": {
+      "badge": "APERÇU",
+      "title": "Les écrans du dashboard"
+    },
+    "shots": {
+      "1": "Dashboard OmniSchool - Écran 1",
+      "2": "Dashboard OmniSchool - Écran 2",
+      "3": "Dashboard OmniSchool - Écran 3",
+      "4": "Dashboard OmniSchool - Écran 4",
+      "5": "Dashboard OmniSchool - Écran 5",
+      "6": "Dashboard OmniSchool - Écran 6",
+      "7": "Dashboard OmniSchool - Écran 7",
+      "8": "Dashboard OmniSchool - Écran 8",
+      "9": "Dashboard OmniSchool - Écran 9"
+    },
+    "lightbox": {
+      "ariaLabel": "Aperçu du dashboard",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "close": "Fermer",
+      "hint": "Cliquez à l’extérieur pour fermer • Échap pour fermer • ←/→ pour naviguer"
+    },
+    "cta": {
+      "title": "Prêt à Simplifier votre Travail?",
+      "subtitle": "Découvrez comment Omnischool peut transformer la gestion de votre école",
+      "button": "Réserver une Démo"
+    }
+  },
+  "managerDashboard": {
+    "hero": {
+      "badge": "DASHBOARD MANAGER",
+      "title": "Pilotez Votre École avec des Données Précises",
+      "subtitle": "Analyses avancées, approbations financières et supervision complète de votre établissement.",
+      "ctaFeatures": "Voir les Fonctionnalités"
+    },
+    "preview": {
+      "badge": "APERÇU",
+      "title": "Les écrans du dashboard"
+    },
+    "featuresSection": { "badge": "FONCTIONNALITÉS", "title": "Tout ce dont le Manager a Besoin" },
+    "features": {
+      "analytics": { "title": "Analyses & Statistiques", "description": "Tableaux de bord avec KPIs en temps réel" },
+      "performance": { "title": "Performance Scolaire", "description": "Suivez les résultats académiques par classe" },
+      "roles": { "title": "Gestion des Rôles", "description": "Créez et gérez les comptes assistants" },
+      "financialReports": { "title": "Rapports Financiers", "description": "Vue complète des revenus, dépenses et balance" },
+      "planning": { "title": "Planification", "description": "Gérez les événements et les horaires" },
+      "documents": { "title": "Documents", "description": "Accédez et gérez les documents importants" }
+    },
+    "screens": { "stats": "Statistiques", "finance": "Finance", "reports": "Rôles & Accès" },
+    "cta": {
+      "title": "Prêt à Simplifier votre Travail?",
+      "subtitle": "Découvrez comment Omnischool peut transformer la gestion de votre école",
+      "button": "Réserver une Démo"
+    }
+  },
+  "about": {
+    "who": {
+      "badge": "QUI SOMMES-NOUS",
+      "title": "Le Partenaire Digital des Écoles Tunisiennes",
+      "subtitle": "Depuis notre création, nous travaillons avec les directeurs et enseignants des écoles privées tunisiennes pour développer la solution de gestion scolaire la plus complète et intuitive du marché."
+    },
+    "video": {
+      "label": "Découvrez Omnischool en vidéo"
+    },
+    "aboutSection": {
+      "title": "À propos d'Omnischool",
+      "p1": "OmniSchool est une plateforme intelligente de gestion scolaire conçue pour les écoles privées en Tunisie.",
+      "p2": "Inspirée par les standards éducatifs européens et enrichie par l’intelligence artificielle, OmniSchool simplifie, automatise et connecte l’ensemble des opérations scolaires — de l’administration à la communication.\n\nNotre mission est claire : offrir aux écoles une infrastructure digitale moderne, fiable et intuitive, leur permettant de gagner du temps, d’optimiser leur organisation et d’améliorer l’expérience globale des élèves, des parents et du personnel.\n\nChez OmniSchool, nous croyons en une technologie humaine.\n\nTech with soul"
+    },
+    "values": {
+      "badge": "NOS VALEURS",
+      "title": "Ce qui nous Guide",
+      "simplicity": {
+        "title": "Simplicité",
+        "description": "La gestion scolaire ne devrait pas être compliquée. OmniSchool est conçu pour être intuitif et facile à utiliser, afin que les enseignants et les administrateurs puissent se concentrer sur l'éducation plutôt que sur la technologie."
+      },
+      "transparency": {
+        "title": "Transparence",
+        "description": "Une école moderne repose sur une communication claire. OmniSchool crée un lien direct entre l'école, les enseignants, les parents et les élèves."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "L'éducation doit évoluer avec la société. OmniSchool utilise des technologies modernes et l'intelligence artificielle pour automatiser des tâches comme la création des emplois du temps et la communication."
+      },
+      "trust": {
+        "title": "Confiance",
+        "description": "Les données scolaires sont sensibles. OmniSchool est construit avec un fort accent sur la sécurité, la stabilité et la fiabilité."
+      }
+    },
+    "culture": {
+      "title": "Notre Culture",
+      "p1": "Chez OmniSchool, nous croyons qu’une grande plateforme commence par une grande culture.\n\nNous construisons un environnement basé sur la confiance, la responsabilité et l’engagement — où chaque personne contribue à quelque chose de plus grand : améliorer l’éducation en Tunisie.\n\nNotre approche est inspirée par des standards internationaux, tout en restant profondément humaine et ancrée dans notre réalité locale.",
+      "p2": "Nous valorisons la simplicité, la collaboration et le respect.\n\nParce que derrière chaque technologie, il y a des personnes.\n\nTech with soul"
+    },
+    "stats": {
+      "partners": "écoles partenaires",
+      "governorates": "gouvernorats couverts",
+      "team": "membres dans l'équipe",
+      "students": "élèves gérés"
+    },
+    "cta": {
+      "title": "Rejoignez la communauté OmniSchool",
+      "subtitle": "Des dizaines d’écoles tunisiennes nous font déjà confiance",
+      "primary": "Réserver une démo",
+      "secondary": "Nous contacter"
+    }
+  },
+  "contact": {
+    "hero": {
+      "imageAlt": "Contact Us",
+      "badgePrimary": "Contactez-nous",
+      "badgeSecondary": "Nous sommes là pour vous aider"
+    },
+    "page": {
+      "heroTitle": "Nous Sommes Impatients de vous Entendre!",
+      "heroSubtitle": "Nous apprécions votre visite et avons hâte de vous entendre. Si vous avez des questions, des suggestions ou des commentaires, n'hésitez pas à contacter notre équipe. Nous serons ravis de vous aider.",
+      "cards": {
+        "demo": {
+          "title": "Réserver une Démo",
+          "description": "Découvrez Omnischool en action avec une démonstration gratuite et personnalisée de 30 minutes.",
+          "button": "Réserver maintenant →"
+        },
+        "sales": {
+          "title": "Contacter les Ventes",
+          "description": "Parlez à notre équipe commerciale pour en savoir plus sur nos offres et tarifs adaptés à votre école.",
+          "button": "Nous écrire →"
+        },
+        "support": {
+          "title": "Support Technique",
+          "description": "Vous êtes déjà client ? Notre équipe support est disponible pour vous aider du lundi au vendredi.",
+          "button": "Accéder au support →"
+        }
+      },
+      "form": {
+        "title": "Envoyez-nous un Message",
+        "firstName": { "label": "Prénom", "placeholder": "Votre prénom" },
+        "lastName": { "label": "Nom", "placeholder": "Votre nom" },
+        "email": { "label": "Email", "placeholder": "votre@email.com" },
+        "phone": { "label": "Téléphone", "placeholder": "+216 XX XXX XXX" },
+        "subject": {
+          "label": "Sujet",
+          "placeholder": "Sélectionner un sujet...",
+          "options": {
+            "demo": "Demande de démo",
+            "features": "Question sur les fonctionnalités",
+            "pricing": "Tarifs et offres",
+            "support": "Support technique",
+            "partnership": "Partenariat",
+            "other": "Autre"
+          }
+        },
+        "message": { "label": "Message", "placeholder": "Comment pouvons-nous vous aider?" },
+        "submitting": "Envoi...",
+        "submit": "Envoyer le Message →"
+      },
+      "success": {
+        "title": "Message Envoyé!",
+        "subtitle": "Merci pour votre message. Notre équipe vous répondra dans les plus brefs délais.",
+        "backHome": "Retour à l'accueil"
+      },
+      "info": {
+        "title": "Nos Coordonnées",
+        "addressLabel": "Adresse",
+        "addressValue": "Tunis, Tunisie",
+        "emailLabel": "Email",
+        "phoneLabel": "Téléphone",
+        "hoursLabel": "Horaires",
+        "hoursValue": "Lun — Ven: 8h00 — 17h00"
+      },
+      "map": {
+        "title": "Retrouvez-nous",
+        "subtitle": "Tunis, Tunisie"
+      },
+      "faq": {
+        "title": "Questions Fréquentes",
+        "items": {
+          "0": {
+            "q": "Combien de temps dure une démo?",
+            "a": "Nos démonstrations durent environ 30 minutes. Nous vous présentons la plateforme et répondons à toutes vos questions."
+          },
+          "1": {
+            "q": "La démo est-elle vraiment gratuite?",
+            "a": "Oui, absolument. La démonstration est entièrement gratuite et sans engagement de votre part."
+          },
+          "2": {
+            "q": "Combien de temps faut-il pour mettre en place Omnischool?",
+            "a": "La mise en place prend généralement 1 à 2 semaines selon la taille de l'école. Notre équipe vous accompagne à chaque étape."
+          },
+          "3": {
+            "q": "Proposez-vous un support en arabe et en français?",
+            "a": "Oui, notre plateforme et notre équipe support sont disponibles en arabe et en français."
+          }
+        }
+      }
+    }
+  },
+  "bookDemo": {
+    "hero": {
+      "badge": "RÉSERVER UNE DÉMO",
+      "title": "Découvrez OmniSchool en action",
+      "subtitle": "Réservez une démonstration gratuite de 30 minutes et découvrez comment OmniSchool peut transformer la gestion de votre école.",
+      "benefits": [
+        "Démo personnalisée selon vos besoins",
+        "Réponse sous 24h garantie",
+        "Aucun engagement requis",
+        "Accompagnement et support inclus"
+      ]
+    },
+    "contact": {
+      "email": "contact@omnischool.tn",
+      "phone": "+216 XX XXX XXX",
+      "location": "Tunis, Tunisie"
+    },
+    "form": {
+      "title": "Informations sur votre école",
+      "firstName": { "label": "Prénom", "placeholder": "Votre prénom" },
+      "lastName": { "label": "Nom", "placeholder": "Votre nom" },
+      "schoolName": { "label": "Nom de l'École", "placeholder": "Ex: École Privée Les Oliviers" },
+      "email": { "label": "Email", "placeholder": "votre@email.com" },
+      "phone": { "label": "Téléphone", "placeholder": "+216 XX XXX XXX" },
+      "city": { "label": "Ville", "placeholder": "Ex: Tunis, Sfax..." },
+      "studentCount": {
+        "label": "Nombre d'Élèves",
+        "options": {
+          "placeholder": "Sélectionner...",
+          "less100": "Moins de 100 élèves",
+          "between100and200": "100 — 200 élèves",
+          "between200and400": "200 — 400 élèves",
+          "between400and600": "400 — 600 élèves",
+          "more600": "Plus de 600 élèves"
+        }
+      },
+      "apps": {
+        "label": "Applications qui vous intéressent",
+        "options": {
+          "assistant": "Dashboard Assistant",
+          "teacher": "App Enseignant",
+          "parent": "App Parent",
+          "manager": "Dashboard Manager"
+        }
+      },
+      "message": { "label": "Message (optionnel)", "placeholder": "Dites-nous en plus sur votre école et vos besoins..." },
+      "submit": {
+        "label": "Envoyer ma Demande de Démo →",
+        "submitting": "Envoi en cours…"
+      },
+      "trustLine": "✓ Réponse sous 24h ✓ Démo gratuite ✓ Sans engagement",
+      "errors": {
+        "invalidPhone": "Téléphone invalide. Utilisez 8 chiffres (format تونس: 12345678).",
+        "serverError": "Erreur serveur ({{status}})",
+        "submitFailed": "Erreur lors de l’envoi."
+      }
+    },
+    "success": {
+      "title": "Demande envoyée!",
+      "subtitle": "Nous vous contacterons dans les 24 heures pour confirmer votre démonstration.",
+      "backHome": "Retour à l'accueil"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find \"/Users/rouge/Desktop/school/omnischoolwebs-main \\(1\\)/backend/src\" -type f -name \"*.java\")",
+      "Bash(find \"/Users/rouge/Desktop/school/omnischoolwebs-main \\(1\\)/backend\" -maxdepth 3 -name \".env*\" -o -name \"*config*\" -type f)",
+      "Bash(ls -la \"/Users/rouge/Desktop/school/omnischoolwebs-main \\(1\\)/backend/src/\")",
+      "Bash(ls -la \"/Users/rouge/Desktop/school/omnischoolwebs-main \\(1\\)/backend/src/main/\")",
+      "Bash(ls -la \"/Users/rouge/Desktop/school/omnischoolwebs-main \\(1\\)/backend/src/main/resources/\")",
+      "Bash(find \"/Users/rouge/Desktop/school/omnischoolwebs-main \\(1\\)/backend/src/main/java\" -type f -name \"*.java\")",
+      "Bash(find \"/Users/rouge/Desktop/school/omnischoolwebs-main \\(1\\)/backend/src/main/java\" -name \"*Application.java\" -o -name \"application*.yml\" -o -name \"application*.properties\")",
+      "Bash(ls -la \"/Users/rouge/Desktop/school/omnischoolwebs-main \\(1\\)/backend/src/main/java/com/omnischool/\")",
+      "Bash(find \"/Users/rouge/Desktop/school/omnischoolwebs-main \\(1\\)\" -maxdepth 2 -name \".env*\" -type f)",
+      "Bash(find \"/Users/rouge/Desktop/school/omnischoolwebs-main \\(1\\)/backend\" -name \"*.properties\" -o -name \"*.yml\")",
+      "Bash(ls \"/Users/rouge/Desktop/school/omnischoolwebs-main \\(1\\)/backend/\")",
+      "Bash(ls \"/Users/rouge/Desktop/school/omnischoolwebs-main \\(1\\)/\")"
+    ]
+  }
+}

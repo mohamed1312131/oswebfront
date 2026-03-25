@@ -1,0 +1,114 @@
+:root {
+  --omni-hero-bg-1: rgba(45, 71, 44, 0.28);
+  --omni-hero-bg-2: rgba(197, 160, 89, 0.28);
+  --omni-hero-border: rgba(255, 255, 255, 0.55);
+  --omni-hero-shadow: rgba(17, 24, 39, 0.16);
+  --omni-hero-inner-border: rgba(229, 231, 235, 0.8);
+}
+
+/* Container that holds the image */
+.omni-hero-mockup {
+  position: relative;
+  width: min(360px, 86vw);
+}
+
+/* Animated light blob behind the mockup */
+.omni-hero-mockup::before {
+  content: '';
+  position: absolute;
+  inset: -22px;
+  border-radius: 36px;
+  background:
+    radial-gradient(closest-side, var(--omni-hero-bg-1) 0%, rgba(45, 71, 44, 0) 62%),
+    radial-gradient(closest-side, var(--omni-hero-bg-2) 0%, rgba(197, 160, 89, 0) 58%);
+  filter: blur(18px);
+  transform: translateZ(0);
+  opacity: 0.95;
+  animation: omniFloatGlow 7s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes omniFloatGlow {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(0, -10px, 0) scale(1.03);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+/* Glass frame */
+.omni-hero-mockup__frame {
+  position: relative;
+  border-radius: 24px;
+  padding: 12px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.56));
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  box-shadow:
+    0 28px 80px rgba(17, 24, 39, 0.16),
+    0 10px 24px rgba(17, 24, 39, 0.08),
+    0 1px 0 rgba(255, 255, 255, 0.55) inset;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  outline: 1px solid rgba(197, 160, 89, 0.20);
+}
+
+/* subtle gradient ring */
+.omni-hero-mockup__frame::after {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  border-radius: 23px;
+  pointer-events: none;
+  box-shadow:
+    0 0 0 1px rgba(45, 71, 44, 0.18) inset,
+    0 0 0 1px rgba(197, 160, 89, 0.14);
+  background: linear-gradient(135deg, rgba(197, 160, 89, 0.18), rgba(45, 71, 44, 0.10));
+  opacity: 0.55;
+  mix-blend-mode: overlay;
+}
+
+/* Top bar */
+.omni-hero-mockup__bar {
+  display: none; /* hide the window-like bar */
+}
+
+/* Image wrapper enforces same visible dimensions across different images */
+.omni-hero-mockup__media {
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(229, 231, 235, 0.90);
+  background: #fff;
+  box-shadow:
+    0 18px 40px rgba(0, 0, 0, 0.10),
+    0 1px 0 rgba(255, 255, 255, 0.55) inset;
+}
+
+/* Image */
+.omni-hero-mockup__img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transform: translateZ(0);
+  transition: transform 260ms ease;
+}
+
+.omni-hero-mockup:hover .omni-hero-mockup__img {
+  transform: scale(1.02);
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .omni-hero-mockup::before {
+    animation: none;
+  }
+  .omni-hero-mockup__img {
+    transition: none;
+  }
+}
