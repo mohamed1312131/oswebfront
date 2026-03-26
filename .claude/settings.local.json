@@ -12,7 +12,28 @@
       "Bash(find \"/Users/rouge/Desktop/school/omnischoolwebs-main \\(1\\)\" -maxdepth 2 -name \".env*\" -type f)",
       "Bash(find \"/Users/rouge/Desktop/school/omnischoolwebs-main \\(1\\)/backend\" -name \"*.properties\" -o -name \"*.yml\")",
       "Bash(ls \"/Users/rouge/Desktop/school/omnischoolwebs-main \\(1\\)/backend/\")",
-      "Bash(ls \"/Users/rouge/Desktop/school/omnischoolwebs-main \\(1\\)/\")"
+      "Bash(ls \"/Users/rouge/Desktop/school/omnischoolwebs-main \\(1\\)/\")",
+      "Bash(find '/Users/rouge/Desktop/school/omnischoolwebs-main \\(1\\)' -type f -name *.properties -o -name *.yml -o -name *.yaml -o -name .env* -o -name docker-compose* -o -name pom.xml -o -name package.json)",
+      "Bash(ls -la \"/Users/rouge/Desktop/school/omnischoolwebs-main \\(1\\)/\")",
+      "Bash(ls -la \"/Users/rouge/Desktop/omnischoolFinalWeb/omnischoolwebs-main \\(1\\)\")",
+      "Bash(find \"/Users/rouge/Desktop/omnischoolFinalWeb/omnischoolwebs-main \\(1\\)\" -maxdepth 3 -type d)",
+      "Bash(find \"/Users/rouge/Desktop/omnischoolFinalWeb/omnischoolwebs-main \\(1\\)/src/app\" -type f -name \"*.tsx\")",
+      "Bash(ls -la \"/Users/rouge/Desktop/omnischoolFinalWeb/omnischoolwebs-main \\(1\\)/src/i18n/locales/\")",
+      "Bash(find \"/Users/rouge/Desktop/omnischoolFinalWeb/omnischoolwebs-main \\(1\\)/src/app/components\" -name \"*.tsx\" -type f)",
+      "Bash(find \"/Users/rouge/Desktop/omnischoolFinalWeb/omnischoolwebs-main \\(1\\)/src/app/pages\" -name \"*.tsx\" -type f)",
+      "Bash(find \"/Users/rouge/Desktop/omnischoolFinalWeb/omnischoolwebs-main \\(1\\)/src/app/pages\" -name \"*.css\" -type f)",
+      "Bash(find \"/Users/rouge/Desktop/omnischoolFinalWeb/omnischoolwebs-main \\(1\\)/src/app/components\" -name \"*.css\" -type f)",
+      "Bash(grep -n \"gridTemplateColumns: ''''1fr 1fr''''\" src/app/pages/BookDemo.tsx)",
+      "Bash(for f:*)",
+      "Bash(do)",
+      "Bash(sed -i '' 's/ px-6/ px-4 md:px-6/g' \"$f\")",
+      "Bash(done)",
+      "Bash(grep -n \"fontSize: ''''32px''''\\\\|page-h2\" src/app/pages/TeacherApp.tsx)",
+      "Bash(awk 'NR>=358 && NR<=362' src/app/pages/TeacherApp.tsx)",
+      "Bash(awk 'NR>=371 && NR<=375' src/app/pages/ParentApp.tsx)",
+      "Bash(awk 'NR>=458 && NR<=462' src/app/pages/AssistantDashboard.tsx)",
+      "Bash(awk 'NR>=296 && NR<=300' src/app/pages/ManagerDashboard.tsx)",
+      "Bash(node node_modules/typescript/bin/tsc --noEmit)"
     ]
   }
 }

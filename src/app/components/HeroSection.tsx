@@ -13,7 +13,7 @@ export function HeroSection() {
   return (
     <section
       style={{ backgroundColor: '#F9F9F7' }}
-      className="pt-32 pb-24 px-6 relative overflow-hidden"
+      className="pt-24 md:pt-32 pb-16 md:pb-24 px-4 md:px-6 relative overflow-hidden"
     >
       {/* Full-cover background image (CLEAR). Readability is handled by overlays. */}
       <div className="absolute inset-0" style={{ zIndex: 0 }}>
@@ -56,7 +56,7 @@ export function HeroSection() {
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
-        <div className="grid lg:grid-cols-[45%_55%] gap-16 items-center">
+        <div className="grid lg:grid-cols-[45%_55%] gap-10 lg:gap-16 items-center">
           {/* Left Content - Text Only */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -66,9 +66,9 @@ export function HeroSection() {
           >
             {/* Main Headline */}
             <h1
+              className="hero-title"
               style={{
                 fontFamily: 'Montserrat, sans-serif',
-                fontSize: '52px',
                 fontWeight: '900',
                 color: '#333333',
                 lineHeight: '1.1',
@@ -122,8 +122,8 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: 'easeOut', delay: 0.2 }}
-            className="relative h-[560px]"
-            style={{ perspective: '1200px' }}
+            className="relative hidden lg:block"
+            style={{ perspective: '1200px', height: '560px' }}
           >
             {/* Soft glow behind screenshots */}
             <div
@@ -297,25 +297,40 @@ export function HeroSection() {
               </div>
             </motion.div>
 
-            {/* Mobile fallback: single centered image */}
-            <div className="lg:hidden absolute inset-x-0 bottom-0 flex justify-center">
-              <div
-                className="w-[320px] rounded-3xl overflow-hidden"
-                style={{
-                  backgroundColor: 'rgba(255,255,255,0.92)',
-                  border: '1px solid rgba(255,255,255,0.60)',
-                  boxShadow: '0 26px 80px rgba(0, 0, 0, 0.18)',
-                }}
-              >
-                <img
-                  src={cap1}
-                  alt={t('home.hero.mockups.mobile.alt')}
-                  className="w-full h-[220px] object-cover"
-                />
-              </div>
-            </div>
           </motion.div>
         </div>
+
+        {/* Mobile mockup - shown only on mobile */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: 'easeOut', delay: 0.3 }}
+          className="lg:hidden mt-10 flex justify-center"
+        >
+          <div
+            className="w-full max-w-sm rounded-3xl overflow-hidden"
+            style={{
+              backgroundColor: 'rgba(255,255,255,0.92)',
+              border: '1px solid rgba(255,255,255,0.60)',
+              boxShadow: '0 26px 80px rgba(0, 0, 0, 0.18)',
+            }}
+          >
+            <img
+              src={cap1}
+              alt={t('home.hero.mockups.mobile.alt')}
+              className="w-full object-cover"
+              style={{ height: '220px' }}
+            />
+            <div className="px-5 py-4">
+              <div className="text-sm font-semibold" style={{ color: '#111827' }}>
+                {t('home.hero.mockups.admin.title')}
+              </div>
+              <div className="text-xs mt-1" style={{ color: '#6B7280' }}>
+                {t('home.hero.mockups.admin.subtitle')}
+              </div>
+            </div>
+          </div>
+        </motion.div>
       </div>
     </section>
   );

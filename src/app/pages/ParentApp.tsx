@@ -64,7 +64,7 @@ export default function ParentApp() {
 
       {/* Section 1 - Hero */}
       <section
-        className="pt-32 pb-24 px-6 relative overflow-hidden"
+        className="pt-24 md:pt-32 pb-16 md:pb-24 px-4 md:px-6 relative overflow-hidden"
         style={{ backgroundColor: '#F9F9F7' }}
       >
         {/* Full-cover background image (same style as Home hero) */}
@@ -107,7 +107,7 @@ export default function ParentApp() {
         </div>
 
         <div className="max-w-[1280px] mx-auto relative z-10">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             {/* Left - Text */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -129,9 +129,9 @@ export default function ParentApp() {
               </div>
 
               <h1
+                className="page-h1"
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '48px',
                   fontWeight: '900',
                   color: '#333333',
                   lineHeight: '1.1',
@@ -196,7 +196,7 @@ export default function ParentApp() {
       </section>
 
       {/* Section 2 - Features Grid */}
-      <section id="parent-features" className="py-24 px-6" style={{ backgroundColor: 'white' }}>
+      <section id="parent-features" className="py-24 px-4 md:px-6" style={{ backgroundColor: 'white' }}>
         <div className="max-w-[1280px] mx-auto">
           <div className="text-center mb-16">
             <div 
@@ -213,9 +213,9 @@ export default function ParentApp() {
               {t('parentApp.featuresSection.badge')}
             </div>
             <h2
+              className="page-h2"
               style={{
                 fontFamily: 'Montserrat, sans-serif',
-                fontSize: '32px', 
                 fontWeight: '700', 
                 color: '#333333'
               }}
@@ -269,7 +269,7 @@ export default function ParentApp() {
       </section>
 
       {/* Section 3 - App Screens Showcase */}
-      <section className="py-24 px-6" style={{ backgroundColor: '#F9F9F7' }}>
+      <section className="py-24 px-4 md:px-6" style={{ backgroundColor: '#F9F9F7' }}>
         <div className="max-w-[1280px] mx-auto">
           <div className="text-center mb-16">
             <div 
@@ -286,9 +286,9 @@ export default function ParentApp() {
               {t('parentApp.preview.badge')}
             </div>
             <h2
+              className="page-h2"
               style={{
-                fontFamily: 'Montserrat, sans-serif', 
-                fontSize: '32px',
+                fontFamily: 'Montserrat, sans-serif',
                 fontWeight: '700',
                 color: '#333333'
               }}
@@ -367,12 +367,12 @@ export default function ParentApp() {
       </section>
 
       {/* Section 4 - CTA Banner */}
-      <section className="py-24 px-6" style={{ backgroundColor: '#2D472C' }}>
+      <section className="py-24 px-4 md:px-6" style={{ backgroundColor: '#2D472C' }}>
         <div className="max-w-[1280px] mx-auto text-center">
           <h2
+            className="page-h2-lg"
             style={{ 
-              fontFamily: 'Montserrat, sans-serif', 
-              fontSize: '36px', 
+              fontFamily: 'Montserrat, sans-serif',
               fontWeight: '700', 
               color: 'white',
               marginBottom: '16px'

@@ -1,0 +1,131 @@
+/* ═══════════════════════════════════════════════
+   Global Responsive Utilities
+   ═══════════════════════════════════════════════ */
+
+/* Page hero headings (44–52px on desktop → 28px on mobile) */
+.page-h1 {
+  font-size: 28px !important;
+}
+
+@media (min-width: 480px) {
+  .page-h1 {
+    font-size: 36px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-h1 {
+    font-size: 44px !important;
+  }
+}
+
+/* Section headings (32–36px on desktop → 24px on mobile) */
+.page-h2 {
+  font-size: 24px !important;
+}
+
+@media (min-width: 480px) {
+  .page-h2 {
+    font-size: 28px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-h2 {
+    font-size: 32px !important;
+  }
+}
+
+/* Large section headings (36px on desktop) */
+.page-h2-lg {
+  font-size: 26px !important;
+}
+
+@media (min-width: 480px) {
+  .page-h2-lg {
+    font-size: 30px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-h2-lg {
+    font-size: 36px !important;
+  }
+}
+
+/* Extra-large section headings (40px on desktop) */
+.page-h2-xl {
+  font-size: 26px !important;
+}
+
+@media (min-width: 480px) {
+  .page-h2-xl {
+    font-size: 32px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-h2-xl {
+    font-size: 40px !important;
+  }
+}
+
+/* App/page hero sections: responsive top padding */
+.page-hero-section {
+  padding-top: 88px !important;
+  padding-bottom: 56px !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+
+@media (min-width: 768px) {
+  .page-hero-section {
+    padding-top: 100px !important;
+    padding-bottom: 80px !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+}
+
+/* Responsive gap for 2-col grids */
+.responsive-grid-gap {
+  gap: 32px !important;
+}
+
+@media (min-width: 1024px) {
+  .responsive-grid-gap {
+    gap: 64px !important;
+  }
+}
+
+/* Form 2-col grid - stacks on mobile */
+.form-grid-2col {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 480px) {
+  .form-grid-2col {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Form card inner padding - responsive */
+.contact-form-inner {
+  padding: 24px;
+}
+
+@media (min-width: 640px) {
+  .contact-form-inner {
+    padding: 40px;
+  }
+}
+
+/* Horizontal scroll prevention */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}

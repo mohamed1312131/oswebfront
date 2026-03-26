@@ -14,9 +14,9 @@ export function UserRolesSection() {
   ];
 
   return (
-    <section className="py-20 px-6" style={{ backgroundColor: 'white' }}>
+    <section className="py-20 px-4 md:px-6" style={{ backgroundColor: 'white' }}>
       <div className="max-w-[1200px] mx-auto">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           {/* Left Side - Text */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -27,10 +27,10 @@ export function UserRolesSection() {
           >
             {/* Title */}
             <h2
-              style={{ 
-                fontFamily: 'Montserrat, sans-serif', 
-                fontSize: '32px', 
-                fontWeight: '700', 
+              className="page-h2"
+              style={{
+                fontFamily: 'Montserrat, sans-serif',
+                fontWeight: '700',
                 color: '#333333',
                 lineHeight: '1.2',
                 letterSpacing: '-0.01em'
@@ -53,7 +53,7 @@ export function UserRolesSection() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.3, ease: 'easeOut', delay: 0.05 * index }}
-                  className="flex items-center justify-between px-6"
+                  className="flex items-center justify-between px-4 md:px-6"
                   style={{
                     backgroundColor: '#2D472C',
                     color: 'white',

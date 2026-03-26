@@ -55,7 +55,7 @@ export default function About() {
       <Navbar scrolled={scrolled} />
 
       {/* Section 1 - Who We Are */}
-      <section className="pt-32 pb-24 px-6" style={{ backgroundColor: 'white', position: 'relative', overflow: 'hidden' }}>
+      <section className="pt-24 md:pt-32 pb-16 md:pb-24 px-4 md:px-6" style={{ backgroundColor: 'white', position: 'relative', overflow: 'hidden' }}>
         {/* Decorative Circles */}
         <div
           style={{
@@ -83,7 +83,7 @@ export default function About() {
         />
 
         <div className="max-w-[1280px] mx-auto" style={{ position: 'relative', zIndex: 1 }}>
-          <div className="grid lg:grid-cols-[45%_55%] gap-16 items-center">
+          <div className="grid lg:grid-cols-[45%_55%] gap-10 lg:gap-16 items-center">
             {/* Left - Text */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -104,9 +104,9 @@ export default function About() {
                 {t('about.who.badge')}
               </div>
               <h1
+                className="page-h1"
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '44px',
                   fontWeight: '700',
                   color: '#333333',
                   lineHeight: '1.1',
@@ -140,9 +140,9 @@ export default function About() {
       </section>
 
       {/* Section 2 - About Us */}
-      <section className="py-20 px-6" style={{ backgroundColor: 'white' }}>
+      <section className="py-16 md:py-20 px-4 md:px-6" style={{ backgroundColor: 'white' }}>
         <div className="max-w-[1280px] mx-auto">
-          <div className="grid lg:grid-cols-[55%_45%] gap-16 items-center">
+          <div className="grid lg:grid-cols-[55%_45%] gap-10 lg:gap-16 items-center">
             {/* Left - Image */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -168,9 +168,9 @@ export default function About() {
               className="about-text"
             >
               <h2
+                className="page-h2"
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '32px',
                   fontWeight: '700',
                   color: '#333333',
                   marginBottom: '20px'
@@ -193,7 +193,7 @@ export default function About() {
       </section>
 
       {/* Section 3 - Our Values */}
-      <section className="py-20 px-6" style={{ backgroundColor: '#F9F9F7' }}>
+      <section className="py-16 md:py-20 px-4 md:px-6" style={{ backgroundColor: '#F9F9F7' }}>
         <div className="max-w-[1280px] mx-auto">
           <div className="text-center mb-12">
             <div
@@ -210,9 +210,9 @@ export default function About() {
               {t('about.values.badge')}
             </div>
             <h2
+              className="page-h2-lg"
               style={{
                 fontFamily: 'Montserrat, sans-serif',
-                fontSize: '36px',
                 fontWeight: '700',
                 color: '#333333'
               }}
@@ -261,9 +261,9 @@ export default function About() {
       </section>
 
       {/* New Section - Our Culture */}
-      <section className="py-20 px-6" style={{ backgroundColor: 'white' }}>
+      <section className="py-16 md:py-20 px-4 md:px-6" style={{ backgroundColor: 'white' }}>
         <div className="max-w-[1280px] mx-auto">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             {/* Left - Text */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -272,9 +272,9 @@ export default function About() {
               transition={{ duration: 0.6, ease: 'easeOut' }}
             >
               <h2
+                className="page-h2"
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '32px',
                   fontWeight: '700',
                   color: '#333333',
                   marginBottom: '20px'
@@ -303,12 +303,12 @@ export default function About() {
       </section>
 
       {/* Section 6 - CTA Banner */}
-      <section className="py-20 px-6" style={{ backgroundColor: '#2D472C' }}>
+      <section className="py-16 md:py-20 px-4 md:px-6" style={{ backgroundColor: '#2D472C' }}>
         <div className="max-w-[1280px] mx-auto text-center">
           <h2
+            className="page-h2-lg"
             style={{
               fontFamily: 'Montserrat, sans-serif',
-              fontSize: '40px',
               fontWeight: '700',
               color: 'white',
               marginBottom: '16px'

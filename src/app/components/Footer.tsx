@@ -19,13 +19,13 @@ export function Footer() {
   ];
 
   return (
-    <footer style={{ backgroundColor: '#2D472C' }} className="pt-20 pb-8 px-6">
+    <footer style={{ backgroundColor: '#2D472C' }} className="pt-14 md:pt-20 pb-8 px-4 md:px-6">
       <div className="max-w-7xl mx-auto">
         {/* Top border */}
         <div className="h-px mb-16" style={{ backgroundColor: 'rgba(255, 255, 255, 0.1)' }} />
 
         {/* Main Footer Content - 3 Columns */}
-        <div className="grid md:grid-cols-3 gap-16 mb-16">
+        <div className="grid md:grid-cols-3 gap-10 md:gap-16 mb-16">
           {/* Logo & Tagline */}
           <div>
             <div className="flex items-center mb-4">

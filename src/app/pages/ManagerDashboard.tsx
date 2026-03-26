@@ -44,7 +44,7 @@ export default function ManagerDashboard() {
       <Navbar scrolled={scrolled} />
 
       {/* Section 1 - Hero */}
-      <section className="pt-32 pb-24 px-6 relative overflow-hidden" style={{ backgroundColor: '#F9F9F7' }}>
+      <section className="pt-24 md:pt-32 pb-16 md:pb-24 px-4 md:px-6 relative overflow-hidden" style={{ backgroundColor: '#F9F9F7' }}>
         {/* Full-cover background image (match Home hero style) */}
         <div className="absolute inset-0" style={{ zIndex: 0 }}>
           <div
@@ -85,7 +85,7 @@ export default function ManagerDashboard() {
         </div>
 
         <div className="max-w-[1280px] mx-auto relative" style={{ zIndex: 1 }}>
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             {/* Left - Text */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -94,7 +94,7 @@ export default function ManagerDashboard() {
             >
               {/* (badge handled by i18n below) */}
               <div
-                style={{ 
+                style={{
                   fontFamily: 'Inter, sans-serif',
                   fontSize: '11px',
                   letterSpacing: '0.15em',
@@ -107,10 +107,10 @@ export default function ManagerDashboard() {
                 {t('managerDashboard.hero.badge')}
               </div>
               <h1
-                style={{ 
-                  fontFamily: 'Montserrat, sans-serif', 
-                  fontSize: '48px', 
-                  fontWeight: '900', 
+                className="page-h1"
+                style={{
+                  fontFamily: 'Montserrat, sans-serif',
+                  fontWeight: '900',
                   color: '#333333',
                   lineHeight: '1.1',
                   marginBottom: '20px'
@@ -170,7 +170,7 @@ export default function ManagerDashboard() {
       </section>
 
       {/* Section 2 - Features Grid */}
-      <section className="py-24 px-6" style={{ backgroundColor: 'white' }}>
+      <section className="py-24 px-4 md:px-6" style={{ backgroundColor: 'white' }}>
         <div className="max-w-[1280px] mx-auto">
           <div className="text-center mb-16">
             <div 
@@ -187,9 +187,9 @@ export default function ManagerDashboard() {
               {t('managerDashboard.featuresSection.badge')}
             </div>
             <h2
+              className="page-h2"
               style={{ 
-                fontFamily: 'Montserrat, sans-serif', 
-                fontSize: '32px', 
+                fontFamily: 'Montserrat, sans-serif',
                 fontWeight: '700', 
                 color: '#333333'
               }}
@@ -230,7 +230,7 @@ export default function ManagerDashboard() {
       </section>
 
       {/* Section 3 - Dashboard Screens Showcase */}
-      <section className="py-24 px-6" style={{ backgroundColor: '#F9F9F7' }}>
+      <section className="py-24 px-4 md:px-6" style={{ backgroundColor: '#F9F9F7' }}>
         <div className="max-w-[1280px] mx-auto">
           <div className="text-center mb-16">
             <div 
@@ -247,9 +247,9 @@ export default function ManagerDashboard() {
               {t('managerDashboard.preview.badge')}
             </div>
             <h2
+              className="page-h2"
               style={{ 
-                fontFamily: 'Montserrat, sans-serif', 
-                fontSize: '32px', 
+                fontFamily: 'Montserrat, sans-serif',
                 fontWeight: '700', 
                 color: '#333333'
               }}
@@ -292,12 +292,12 @@ export default function ManagerDashboard() {
       </section>
 
       {/* Section 4 - CTA Banner */}
-      <section className="py-24 px-6" style={{ backgroundColor: '#2D472C' }}>
+      <section className="py-24 px-4 md:px-6" style={{ backgroundColor: '#2D472C' }}>
         <div className="max-w-[1280px] mx-auto text-center">
           <h2
+            className="page-h2-lg"
             style={{ 
-              fontFamily: 'Montserrat, sans-serif', 
-              fontSize: '36px', 
+              fontFamily: 'Montserrat, sans-serif',
               fontWeight: '700', 
               color: 'white',
               marginBottom: '16px'

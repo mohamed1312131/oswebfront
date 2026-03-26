@@ -99,7 +99,7 @@ export default function Contact() {
       <Navbar scrolled={scrolled} />
 
       {/* Section 1 - Hero */}
-      <section style={{ backgroundColor: 'white', paddingTop: '100px', paddingBottom: '100px', position: 'relative', overflow: 'hidden' }}>
+      <section className="page-hero-section" style={{ backgroundColor: 'white', position: 'relative', overflow: 'hidden' }}>
         {/* Decorative Circle - Top Left */}
         <div
           style={{
@@ -128,8 +128,8 @@ export default function Contact() {
           }}
         />
 
-        <div className="max-w-[1280px] mx-auto px-6 relative z-10">
-          <div className="grid lg:grid-cols-[45%_55%] gap-16 items-center">
+        <div className="max-w-[1280px] mx-auto px-4 md:px-6 relative z-10">
+          <div className="grid lg:grid-cols-[45%_55%] gap-10 lg:gap-16 items-center">
             {/* Left side - Text */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -137,9 +137,9 @@ export default function Contact() {
               transition={{ duration: 0.6, ease: 'easeOut' }}
             >
               <h1
+                className="page-h1"
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '44px',
                   fontWeight: '700',
                   color: '#333333',
                   lineHeight: '1.1',
@@ -181,7 +181,7 @@ export default function Contact() {
 
       {/* Section 2 - 3 Contact Cards */}
       <section style={{ backgroundColor: 'white', paddingTop: '60px', paddingBottom: '60px' }}>
-        <div className="max-w-[1280px] mx-auto px-6">
+        <div className="max-w-[1280px] mx-auto px-4 md:px-6">
           <div className="grid md:grid-cols-3 gap-6 items-stretch">
             {/* Card 1 - Book a demo */}
             <motion.div
@@ -390,9 +390,9 @@ export default function Contact() {
       </section>
 
       {/* Section 3 - Contact Form + Info */}
-      <section style={{ backgroundColor: '#F9F9F7', paddingTop: '80px', paddingBottom: '80px' }}>
-        <div className="max-w-[1280px] mx-auto px-6">
-          <div className="grid lg:grid-cols-[55%_45%] gap-12">
+      <section style={{ backgroundColor: '#F9F9F7', paddingTop: '60px', paddingBottom: '80px' }}>
+        <div className="max-w-[1280px] mx-auto px-4 md:px-6">
+          <div className="grid lg:grid-cols-[55%_45%] gap-10 lg:gap-12">
             {/* Left - Contact Form */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -402,11 +402,11 @@ export default function Contact() {
             >
               <div
                 id="contact-form"
+                className="contact-form-inner"
                 style={{
                   backgroundColor: 'white',
                   borderRadius: '16px',
                   border: '1px solid #E5E7EB',
-                  padding: '40px',
                 }}
               >
                 {!formSubmitted ? (
@@ -425,7 +425,7 @@ export default function Contact() {
 
                     <form onSubmit={handleSubmit}>
                       {/* Row 1 - First Name & Last Name */}
-                      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '16px' }}>
+                      <div className="form-grid-2col" style={{ gap: '16px', marginBottom: '16px' }}>
                         <div>
                           <label
                             style={{ display: 'block', fontSize: '13px', color: '#6B7280', marginBottom: '8px' }}
@@ -924,11 +924,11 @@ export default function Contact() {
 
       {/* Section 5 - FAQ Strip */}
       <section style={{ backgroundColor: '#F9F9F7', paddingTop: '60px', paddingBottom: '60px' }}>
-        <div className="max-w-[1280px] mx-auto px-6">
+        <div className="max-w-[1280px] mx-auto px-4 md:px-6">
           <h2
+            className="page-h2"
             style={{
               fontFamily: 'Montserrat, sans-serif',
-              fontSize: '32px',
               fontWeight: '700',
               color: '#333333',
               textAlign: 'center',

@@ -15,7 +15,7 @@ export function SolutionHero() {
   return (
     <section
       style={{ backgroundColor: '#F9F9F7' }}
-      className="relative overflow-hidden py-32 px-6"
+      className="relative overflow-hidden pt-24 md:pt-32 pb-16 md:pb-32 px-4 md:px-6"
     >
       {/* Full-cover background image (CLEAR). Readability is handled by overlays. */}
       <div className="absolute inset-0" style={{ zIndex: 0 }}>
@@ -67,7 +67,7 @@ export function SolutionHero() {
       />
 
       <div className="max-w-[1280px] mx-auto relative z-10">
-        <div className="grid lg:grid-cols-[45%_55%] gap-16 items-center">
+        <div className="grid lg:grid-cols-[45%_55%] gap-10 lg:gap-16 items-center">
           {/* Left Side - Text Content */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -91,9 +91,9 @@ export function SolutionHero() {
 
             {/* Title */}
             <h1
+              className="page-h1"
               style={{
                 fontFamily: 'Montserrat, sans-serif',
-                fontSize: '48px',
                 fontWeight: '900',
                 color: '#333333',
                 lineHeight: '1.1',
@@ -138,8 +138,8 @@ export function SolutionHero() {
             </div>
           </motion.div>
 
-          {/* Right Side - Floating Mockup Cards */}
-          <div className="solution-hero-cards">
+          {/* Right Side - Floating Mockup Cards (desktop only) */}
+          <div className="solution-hero-cards hidden lg:block">
             {/* Card 1 - Dashboard Admin (Top Left) */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -229,6 +229,25 @@ export function SolutionHero() {
               </div>
             </motion.div>
           </div>
+        </div>
+
+        {/* Mobile-only image grid */}
+        <div className="lg:hidden mt-10 grid grid-cols-2 gap-3">
+          {[dashboardAdminImg, emploiDuTempsImg, appEnseignantImg, appParentImg].map((img, i) => (
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, ease: 'easeOut', delay: 0.2 + i * 0.1 }}
+              className="rounded-2xl overflow-hidden"
+              style={{
+                border: '1px solid rgba(229,231,235,0.9)',
+                boxShadow: '0 8px 24px rgba(0,0,0,0.10)',
+              }}
+            >
+              <img src={img} alt="" className="w-full h-[130px] object-cover" />
+            </motion.div>
+          ))}
         </div>
       </div>
     </section>

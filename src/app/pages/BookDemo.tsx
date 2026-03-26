@@ -139,7 +139,7 @@ export default function BookDemo() {
     <div style={{ backgroundColor: '#F9F9F7', minHeight: '100vh', fontFamily: 'Inter, sans-serif' }}>
       <Navbar scrolled={scrolled} />
 
-      <div className="relative" style={{ minHeight: '100vh', paddingTop: '80px', paddingBottom: '80px' }}>
+      <div className="relative" style={{ minHeight: '100vh', paddingTop: 'clamp(76px, 10vw, 80px)', paddingBottom: '80px' }}>
         {/* Decorative Circles */}
         <div
           style={{
@@ -169,8 +169,8 @@ export default function BookDemo() {
         />
 
         {/* Main Content */}
-        <div className="max-w-[1280px] mx-auto px-6 relative z-10">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="max-w-[1280px] mx-auto px-4 md:px-6 relative z-10">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             {/* Left Side - Info Panel */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -189,9 +189,9 @@ export default function BookDemo() {
                 {t('bookDemo.hero.badge')}
               </div>
               <h1
+                className="page-h1"
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '44px',
                   fontWeight: '700',
                   color: '#333333',
                   lineHeight: '1.1',
@@ -246,11 +246,11 @@ export default function BookDemo() {
               transition={{ duration: 0.6, ease: 'easeOut' }}
             >
               <div
+                className="contact-form-inner"
                 style={{
                   backgroundColor: 'white',
                   borderRadius: '16px',
                   border: '1px solid #E5E7EB',
-                  padding: '40px',
                   boxShadow: '0 8px 32px rgba(0, 0, 0, 0.08)',
                 }}
               >
@@ -286,7 +286,7 @@ export default function BookDemo() {
                       )}
 
                       {/* Row 1 - First Name & Last Name */}
-                      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '20px' }}>
+                      <div className="form-grid-2col" style={{ gap: '16px', marginBottom: '20px' }}>
                         <div>
                           <label style={{ display: 'block', fontSize: '13px', color: '#6B7280', marginBottom: '8px' }} htmlFor="firstName">
                             {t('bookDemo.form.firstName.label')}
@@ -370,7 +370,7 @@ export default function BookDemo() {
                       </div>
 
                       {/* Row 3 - Email & Phone */}
-                      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '20px' }}>
+                      <div className="form-grid-2col" style={{ gap: '16px', marginBottom: '20px' }}>
                         <div>
                           <label style={{ display: 'block', fontSize: '13px', color: '#6B7280', marginBottom: '8px' }} htmlFor="email">
                             {t('bookDemo.form.email.label')}
@@ -426,7 +426,7 @@ export default function BookDemo() {
                       </div>
 
                       {/* Row 4 - City & Student Count */}
-                      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '20px' }}>
+                      <div className="form-grid-2col" style={{ gap: '16px', marginBottom: '20px' }}>
                         <div>
                           <label style={{ display: 'block', fontSize: '13px', color: '#6B7280', marginBottom: '8px' }} htmlFor="city">
                             {t('bookDemo.form.city.label')}
@@ -492,7 +492,7 @@ export default function BookDemo() {
                         <label style={{ display: 'block', fontSize: '13px', color: '#6B7280', marginBottom: '12px' }}>
                           {t('bookDemo.form.apps.label')}
                         </label>
-                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+                        <div className="form-grid-2col" style={{ gap: '12px' }}>
                           <div
                             onClick={() => handleCheckboxChange('assistant')}
                             style={{

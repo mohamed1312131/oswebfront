@@ -42,7 +42,7 @@ export function SolutionSection() {
   return (
     <section
       style={{ backgroundColor: "#2D472C" }}
-      className="py-24 px-6"
+      className="py-24 px-4 md:px-6"
     >
       <div className="max-w-7xl mx-auto">
         {/* Section Badge */}
@@ -71,14 +71,13 @@ export function SolutionSection() {
             ease: "easeOut",
             delay: 0.1,
           }}
+          className="page-h2-xl text-center mb-4"
           style={{
             fontFamily: "Montserrat, sans-serif",
-            fontSize: "40px",
             fontWeight: "700",
             color: "white",
             letterSpacing: "-0.02em",
           }}
-          className="text-center mb-4"
         >
           Ce qui Nous Guide
         </motion.h2>

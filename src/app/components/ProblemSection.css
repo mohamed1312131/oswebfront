@@ -132,9 +132,15 @@
   box-shadow: 0 0 0 4px rgba(45, 71, 44, 0.10);
 }
 
+@media (max-width: 480px) {
+  .visionTitle {
+    font-size: 26px;
+  }
+}
+
 @media (max-width: 768px) {
   .visionTitle {
-    font-size: 34px;
+    font-size: 30px;
   }
 
   .visionText {

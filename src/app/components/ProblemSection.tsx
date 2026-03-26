@@ -8,7 +8,7 @@ export function ProblemSection() {
   const stats = t('home.vision.stats', { returnObjects: true }) as Array<{ value: string; label: string }>;
 
   return (
-    <section className="visionSection py-24 px-6">
+    <section className="visionSection py-24 px-4 md:px-6">
       <div className="visionGlow" aria-hidden="true" />
 
       <div className="max-w-7xl mx-auto visionContainer">

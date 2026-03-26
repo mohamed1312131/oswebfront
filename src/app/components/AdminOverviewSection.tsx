@@ -6,9 +6,9 @@ export function AdminOverviewSection() {
   const { t } = useTranslation();
 
   return (
-    <section className="py-24 px-6" style={{ backgroundColor: 'white' }}>
+    <section className="py-24 px-4 md:px-6" style={{ backgroundColor: 'white' }}>
       <div className="max-w-[1280px] mx-auto">
-        <div className="grid lg:grid-cols-[55%_45%] gap-16 items-center">
+        <div className="grid lg:grid-cols-[55%_45%] gap-10 lg:gap-16 items-center">
           {/* Left Side - Image */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -81,9 +81,9 @@ export function AdminOverviewSection() {
 
             {/* Title */}
             <h2
+              className="page-h2-lg"
               style={{
                 fontFamily: 'Montserrat, sans-serif',
-                fontSize: '36px',
                 fontWeight: '700',
                 color: '#333333',
                 lineHeight: '1.2',

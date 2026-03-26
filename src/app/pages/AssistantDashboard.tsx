@@ -169,7 +169,7 @@ export default function AssistantDashboard() {
       )}
 
       {/* Section 1 - Hero */}
-      <section className="pt-32 pb-24 px-6 relative overflow-hidden" style={{ backgroundColor: '#F9F9F7' }}>
+      <section className="pt-24 md:pt-32 pb-16 md:pb-24 px-4 md:px-6 relative overflow-hidden" style={{ backgroundColor: '#F9F9F7' }}>
         {/* Full-cover background image (match Home hero style) */}
         <div className="absolute inset-0" style={{ zIndex: 0 }}>
           <div
@@ -210,7 +210,7 @@ export default function AssistantDashboard() {
         </div>
 
         <div className="max-w-[1280px] mx-auto relative" style={{ zIndex: 1 }}>
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             {/* Left - Text */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -231,9 +231,9 @@ export default function AssistantDashboard() {
                 {t('assistantDashboard.hero.badge')}
               </div>
               <h1
+                className="page-h1"
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '48px',
                   fontWeight: '900',
                   color: '#333333',
                   lineHeight: '1.1',
@@ -335,7 +335,7 @@ export default function AssistantDashboard() {
       </section>
 
       {/* Section 2 - Features Grid */}
-      <section id="assistant-features" className="py-24 px-6" style={{ backgroundColor: 'white' }}>
+      <section id="assistant-features" className="py-24 px-4 md:px-6" style={{ backgroundColor: 'white' }}>
         <div className="max-w-[1280px] mx-auto">
           <div className="text-center mb-16">
             <div
@@ -352,9 +352,9 @@ export default function AssistantDashboard() {
               {t('assistantDashboard.features.badge')}
             </div>
             <h2
+              className="page-h2"
               style={{
                 fontFamily: 'Montserrat, sans-serif',
-                fontSize: '32px',
                 fontWeight: '700',
                 color: '#333333'
               }}
@@ -395,7 +395,7 @@ export default function AssistantDashboard() {
       </section>
 
       {/* Section 3 - Dashboard Screens Showcase */}
-      <section className="py-24 px-6" style={{ backgroundColor: '#F9F9F7' }}>
+      <section className="py-24 px-4 md:px-6" style={{ backgroundColor: '#F9F9F7' }}>
         <div className="max-w-[1280px] mx-auto">
           <div className="text-center mb-16">
             <div
@@ -412,9 +412,9 @@ export default function AssistantDashboard() {
               {t('assistantDashboard.screens.badge')}
             </div>
             <h2
+              className="page-h2"
               style={{
                 fontFamily: 'Montserrat, sans-serif',
-                fontSize: '32px',
                 fontWeight: '700',
                 color: '#333333'
               }}
@@ -454,12 +454,12 @@ export default function AssistantDashboard() {
       </section>
 
       {/* Section 4 - CTA Banner */}
-      <section className="py-24 px-6" style={{ backgroundColor: '#2D472C' }}>
+      <section className="py-24 px-4 md:px-6" style={{ backgroundColor: '#2D472C' }}>
         <div className="max-w-[1280px] mx-auto text-center">
           <h2
+            className="page-h2-lg"
             style={{
               fontFamily: 'Montserrat, sans-serif',
-              fontSize: '36px',
               fontWeight: '700',
               color: 'white',
               marginBottom: '16px'

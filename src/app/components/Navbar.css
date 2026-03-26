@@ -123,3 +123,122 @@
   outline: none;
   box-shadow: 0 0 0 4px rgba(197, 160, 89, 0.30), 0 26px 70px rgba(45, 71, 44, 0.28);
 }
+
+/* ─── Hamburger Button ─── */
+.navbarHamburger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  color: #2D472C;
+  background: transparent;
+  transition: background-color 160ms ease;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.navbarHamburger:hover {
+  background-color: rgba(45, 71, 44, 0.08);
+}
+
+/* ─── Mobile Backdrop ─── */
+.navbarMobileBackdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 48;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(2px);
+}
+
+/* ─── Mobile Panel ─── */
+.navbarMobilePanel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 49;
+  width: min(320px, 90vw);
+  background: #ffffff;
+  box-shadow: -8px 0 40px rgba(0, 0, 0, 0.14);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.navbarMobileHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid rgba(229, 231, 235, 0.8);
+  flex-shrink: 0;
+}
+
+.navbarMobileNav {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+}
+
+.navbarMobileLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 14px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #111827;
+  letter-spacing: -0.01em;
+  transition: background-color 160ms ease, color 160ms ease;
+  text-align: left;
+  cursor: pointer;
+}
+
+.navbarMobileLink:hover {
+  background-color: rgba(45, 71, 44, 0.05);
+  color: #2D472C;
+}
+
+.navbarMobileDropdownBtn {
+  background: transparent;
+  width: 100%;
+}
+
+.navbarMobileSubMenu {
+  background: rgba(249, 249, 247, 0.8);
+  padding: 4px 0;
+}
+
+.navbarMobileSubLink {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px 12px 36px;
+  font-size: 14px;
+  color: #374151;
+  transition: background-color 160ms ease;
+}
+
+.navbarMobileSubLink:hover {
+  background-color: rgba(45, 71, 44, 0.06);
+  color: #2D472C;
+}
+
+.navbarMobileFooter {
+  padding: 20px;
+  border-top: 1px solid rgba(229, 231, 235, 0.8);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.navbarMobileCta {
+  width: 100%;
+  height: 48px;
+  font-size: 15px;
+}

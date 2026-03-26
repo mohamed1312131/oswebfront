@@ -43,7 +43,7 @@ export function AppsShowcaseSection() {
   const currentApp = apps.find(app => app.id === activeTab)!;
 
   return (
-    <section className="py-24 px-6" style={{ backgroundColor: 'white' }}>
+    <section className="py-24 px-4 md:px-6" style={{ backgroundColor: 'white' }}>
       <div className="max-w-7xl mx-auto">
         {/* Section Badge */}
         <motion.div
@@ -67,14 +67,13 @@ export function AppsShowcaseSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4, ease: 'easeOut', delay: 0.1 }}
-          style={{ 
-            fontFamily: 'Montserrat, sans-serif', 
-            fontSize: '40px', 
-            fontWeight: '700', 
+          className="page-h2-xl text-center mb-16"
+          style={{
+            fontFamily: 'Montserrat, sans-serif',
+            fontWeight: '700',
             color: '#2D472C',
             letterSpacing: '-0.02em'
           }}
-          className="text-center mb-16"
         >
           Conçu pour Chaque Utilisateur
         </motion.h2>
