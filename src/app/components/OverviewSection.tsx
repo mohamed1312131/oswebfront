@@ -19,6 +19,7 @@ export function OverviewSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, ease: 'easeOut' }}
+            className="hidden lg:block"
           >
             <div
               className="relative"
