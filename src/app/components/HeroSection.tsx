@@ -300,37 +300,6 @@ export function HeroSection() {
           </motion.div>
         </div>
 
-        {/* Mobile mockup - shown only on mobile */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: 'easeOut', delay: 0.3 }}
-          className="lg:hidden mt-10 flex justify-center"
-        >
-          <div
-            className="w-full max-w-sm rounded-3xl overflow-hidden"
-            style={{
-              backgroundColor: 'rgba(255,255,255,0.92)',
-              border: '1px solid rgba(255,255,255,0.60)',
-              boxShadow: '0 26px 80px rgba(0, 0, 0, 0.18)',
-            }}
-          >
-            <img
-              src={cap1}
-              alt={t('home.hero.mockups.mobile.alt')}
-              className="w-full object-cover"
-              style={{ height: '220px' }}
-            />
-            <div className="px-5 py-4">
-              <div className="text-sm font-semibold" style={{ color: '#111827' }}>
-                {t('home.hero.mockups.admin.title')}
-              </div>
-              <div className="text-xs mt-1" style={{ color: '#6B7280' }}>
-                {t('home.hero.mockups.admin.subtitle')}
-              </div>
-            </div>
-          </div>
-        </motion.div>
       </div>
     </section>
   );

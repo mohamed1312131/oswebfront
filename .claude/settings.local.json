@@ -35,7 +35,13 @@
       "Bash(awk 'NR>=296 && NR<=300' src/app/pages/ManagerDashboard.tsx)",
       "Bash(node node_modules/typescript/bin/tsc --noEmit)",
       "Bash(python3 -c \":*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(curl -s -o /dev/null -w \"Status: %{http_code}, URL: %{url_effective}\" \"https://oswebback-production.up.railway.app/api/health\")",
+      "Bash(curl -s -o /dev/null -w \"Status: %{http_code}, URL: %{url_effective}\" \"https://oswebback-production-2671.up.railway.app/api/health\")",
+      "Bash(ls -la \"/Users/rouge/Desktop/omnischoolFinalWeb/omnischoolwebs-main \\(1\\)/\")",
+      "Bash(find \"/Users/rouge/Desktop/omnischoolFinalWeb/omnischoolwebs-main \\(1\\)/backend\" -name \"*.java\")",
+      "Bash(echo --- find '/Users/rouge/Desktop/omnischoolFinalWeb/omnischoolwebs-main \\(1\\)/backend' -name SecurityConfig* -o -name WebConfig* -o -name CorsConfig*)",
+      "Bash(find \"/Users/rouge/Desktop/omnischoolFinalWeb/omnischoolwebs-main \\(1\\)/backend\" -name \"application*.properties\" -o -name \"application*.yml\")"
     ]
   }
 }
