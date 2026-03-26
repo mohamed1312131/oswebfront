@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
-import { Calendar, MessageSquare, Headphones, MapPin, Mail, Phone, Clock, CheckCircle, ChevronDown, ChevronUp, Linkedin, Facebook, Instagram } from 'lucide-react';
+import { Calendar, MessageSquare, Headphones, MapPin, Mail, Clock, CheckCircle, ChevronDown, ChevronUp, Linkedin, Facebook, Instagram } from 'lucide-react';
 import { Link } from 'react-router';
 import { apiPost } from '../lib/api';
 import c1Image from '../../assets/contact.png';
@@ -12,6 +12,11 @@ import { useTranslation } from 'react-i18next';
 export default function Contact() {
   const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 10);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
@@ -771,27 +776,6 @@ export default function Contact() {
                         {t('contact.page.info.emailLabel')}
                       </div>
                       <div style={{ fontSize: '14px', color: '#6B7280' }}>contact@omnischool.tn</div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Phone */}
-                <div>
-                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '12px' }}>
-                    <Phone size={20} style={{ color: '#2D472C', marginTop: '2px', flexShrink: 0 }} />
-                    <div>
-                      <div
-                        style={{
-                          fontFamily: 'Inter, sans-serif',
-                          fontSize: '14px',
-                          fontWeight: '600',
-                          color: '#333333',
-                          marginBottom: '4px',
-                        }}
-                      >
-                        {t('contact.page.info.phoneLabel')}
-                      </div>
-                      <div style={{ fontSize: '14px', color: '#6B7280' }}>+216 XX XXX XXX</div>
                     </div>
                   </div>
                 </div>

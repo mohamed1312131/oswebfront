@@ -125,10 +125,22 @@
       "subtitle": "منصة شاملة تدعم الطلاب وأولياء الأمور والمعلمين والإدارة — في كل مرحلة من الحياة المدرسية.",
       "cta": "احجز عرضًا",
       "cards": {
-        "admin": { "alt": "لوحة الإدارة", "badge": "لوحة الإدارة" },
-        "timetable": { "alt": "الجدول الذكي", "badge": "الجدول الذكي" },
-        "teacher": { "alt": "تطبيق المعلم", "badge": "تطبيق المعلم" },
-        "parent": { "alt": "تطبيق ولي الأمر", "badge": "تطبيق ولي الأمر" }
+        "admin": {
+          "alt": "لوحة الإدارة",
+          "badge": "لوحة الإدارة"
+        },
+        "timetable": {
+          "alt": "الجدول الذكي",
+          "badge": "الجدول الذكي"
+        },
+        "teacher": {
+          "alt": "تطبيق المعلم",
+          "badge": "تطبيق المعلم"
+        },
+        "parent": {
+          "alt": "تطبيق ولي الأمر",
+          "badge": "تطبيق ولي الأمر"
+        }
       }
     },
     "userRoles": {
@@ -163,9 +175,18 @@
       "p2": "مستوحاة من أفضل الممارسات الاسكندنافية، تبسّط المنصة الإدارة وتعزّز التعاون بين ا��إدارة والمعلمين والعائلات.",
       "p3": "من خلال جمع الإدارة والتواصل والتخطيط في مساحة واحدة، تساعد OmniSchool المدارس على قيادة عملها بهدوء — وإعادة التعلم إلى قلب الحياة اليومية.",
       "stats": [
-        { "value": "+50", "label": "مدرسة مستهدفة" },
-        { "value": "100%", "label": "تونسي ومحلي" },
-        { "value": "1", "label": "منصة متكاملة" }
+        {
+          "value": "+50",
+          "label": "مدرسة مستهدفة"
+        },
+        {
+          "value": "100%",
+          "label": "تونسي ومحلي"
+        },
+        {
+          "value": "1",
+          "label": "منصة متكاملة"
+        }
       ]
     },
     "timeForTeaching": {
@@ -178,9 +199,18 @@
       "title": "وفّر وقتًا للتعليم",
       "subtitle": "يقضي المعلمون وقتًا طويلًا في المهام الإدارية. تقوم OmniSchool بأتمتة الحضور والدرجات والتواصل حتى تصبح كل دقيقة مهمة داخل الفصل.",
       "stats": [
-        { "number": "3x", "label": "أقل أوراق" },
-        { "number": "80%", "label": "توفير وقت" },
-        { "number": "100%", "label": "بيانات موحّدة" }
+        {
+          "number": "3x",
+          "label": "أقل أوراق"
+        },
+        {
+          "number": "80%",
+          "label": "توفير وقت"
+        },
+        {
+          "number": "100%",
+          "label": "بيانات موحّدة"
+        }
       ]
     }
   },
@@ -197,14 +227,35 @@
       "badge": "معاينة",
       "title": "شاشات التطبيق"
     },
-    "featuresSection": { "badge": "الميزات", "title": "كل ما يحتاجه المعلم" },
+    "featuresSection": {
+      "badge": "الميزات",
+      "title": "كل ما يحتاجه المعلم"
+    },
     "features": {
-      "smartAttendance": { "title": "حضور ذكي", "description": "تسجيل الحضور لكل فصل خلال ثوانٍ" },
-      "syllabus": { "title": "إدارة المنهج", "description": "تخطيط ومتابعة المنهج حسب المادة" },
-      "grades": { "title": "إدخال الدرجات", "description": "إدخال درجات المراقبة والاختبارات النهائية" },
-      "homework": { "title": "نشر الواجبات", "description": "مشاركة الواجبات مع الطلاب وأولياء الأمور" },
-      "timetable": { "title": "الجدول الزمني", "description": "عرض الجدول الأسبوعي بشكل لحظي" },
-      "requests": { "title": "الطلبات", "description": "إرسال طلبات إلى الإدارة" }
+      "smartAttendance": {
+        "title": "حضور ذكي",
+        "description": "تسجيل الحضور لكل فصل خلال ثوانٍ"
+      },
+      "syllabus": {
+        "title": "إدارة المنهج",
+        "description": "تخطيط ومتابعة المنهج حسب المادة"
+      },
+      "grades": {
+        "title": "إدخال الدرجات",
+        "description": "إدخال درجات المراقبة والاختبارات النهائية"
+      },
+      "homework": {
+        "title": "نشر الواجبات",
+        "description": "مشاركة الواجبات مع الطلاب وأولياء الأمور"
+      },
+      "timetable": {
+        "title": "الجدول الزمني",
+        "description": "عرض الجدول الأسبوعي بشكل لحظي"
+      },
+      "requests": {
+        "title": "الطلبات",
+        "description": "إرسال طلبات إلى الإدارة"
+      }
     },
     "screens": {
       "calendar": "تقويم المعلم",
@@ -233,14 +284,35 @@
       "title": "شاشات التطبيق",
       "screenAlt": "الشاشة {{title}}"
     },
-    "featuresSection": { "badge": "الميزات", "title": "كل ما يحتاجه ولي الأمر" },
+    "featuresSection": {
+      "badge": "الميزات",
+      "title": "كل ما يحتاجه ولي الأمر"
+    },
     "features": {
-      "smartAttendance": { "title": "متابعة الحضور", "description": "متابعة الحضور بسهولة" },
-      "syllabus": { "title": "المنهج", "description": "متابعة تقدّم المواد" },
-      "grades": { "title": "الدرجات", "description": "عرض درجات المراقبة والامتحانات" },
-      "homework": { "title": "الواجبات", "description": "عرض الواجبات والمرفقات" },
-      "timetable": { "title": "الجدول", "description": "عرض الجدول الأسبوعي" },
-      "requests": { "title": "الطلبات", "description": "إرسال طلبات إلى المدرسة" }
+      "smartAttendance": {
+        "title": "متابعة الحضور",
+        "description": "متابعة الحضور بسهولة"
+      },
+      "syllabus": {
+        "title": "المنهج",
+        "description": "متابعة تقدّم المواد"
+      },
+      "grades": {
+        "title": "الدرجات",
+        "description": "عرض درجات المراقبة والامتحانات"
+      },
+      "homework": {
+        "title": "الواجبات",
+        "description": "عرض الواجبات والمرفقات"
+      },
+      "timetable": {
+        "title": "الجدول",
+        "description": "عرض الجدول الأسبوعي"
+      },
+      "requests": {
+        "title": "الطلبات",
+        "description": "إرسال طلبات إلى المدرسة"
+      }
     },
     "screens": {
       "smartCalendar": "تقويم ذكي",
@@ -270,12 +342,30 @@
     "features": {
       "badge": "الميزات",
       "title": "كل ما يحتاجه المساعد",
-      "students": { "title": "إدارة الطلاب", "description": "تسجيلات، ملفات، سجلات وتحويلات" },
-      "teachers": { "title": "إدارة المعلمين", "description": "العبء الساعي، الغيابات والتعويضات" },
-      "timetable": { "title": "الجدول الزمني", "description": "بناء وإدارة الجدول الأسبوعي" },
-      "pdfReports": { "title": "تقارير PDF", "description": "إنشاء الكشوف والإيصالات والفواتير" },
-      "communication": { "title": "التواصل", "description": "إعلانات وطلبات أولياء الأمور والمعلمين" },
-      "finance": { "title": "المالية", "description": "الرسوم والرواتب والموردون والتقارير" }
+      "students": {
+        "title": "إدارة الطلاب",
+        "description": "تسجيلات، ملفات، سجلات وتحويلات"
+      },
+      "teachers": {
+        "title": "إدارة المعلمين",
+        "description": "العبء الساعي، الغيابات والتعويضات"
+      },
+      "timetable": {
+        "title": "الجدول الزمني",
+        "description": "بناء وإدارة الجدول الأسبوعي"
+      },
+      "pdfReports": {
+        "title": "تقارير PDF",
+        "description": "إنشاء الكشوف والإيصالات والفواتير"
+      },
+      "communication": {
+        "title": "التواصل",
+        "description": "إعلانات وطلبات أولياء الأمور والمعلمين"
+      },
+      "finance": {
+        "title": "المالية",
+        "description": "الرسوم والرواتب والموردون والتقارير"
+      }
     },
     "screens": {
       "badge": "معاينة",
@@ -316,16 +406,41 @@
       "badge": "معاينة",
       "title": "شاشات لوحة التحكم"
     },
-    "featuresSection": { "badge": "الميزات", "title": "كل ما يحتاجه المدير" },
-    "features": {
-      "analytics": { "title": "التحليلات", "description": "لوحات مؤشرات لحظية" },
-      "performance": { "title": "الأداء الدراسي", "description": "متابعة النتائج حسب الفصول" },
-      "roles": { "title": "إدارة الصلاحيات", "description": "إنشاء وإدارة حسابات المساعدين" },
-      "financialReports": { "title": "التقارير المالية", "description": "عرض كامل للإيرادات والمصاريف والرصيد" },
-      "planning": { "title": "التخطيط", "description": "إدارة الأحداث والجداول" },
-      "documents": { "title": "الوثائق", "description": "الوصول إلى الوثائق المهمة وإدارتها" }
+    "featuresSection": {
+      "badge": "الميزات",
+      "title": "كل ما يحتاجه المدير"
     },
-    "screens": { "stats": "إحصائيات", "finance": "مالية", "reports": "الأدوار والصلاحيات" },
+    "features": {
+      "analytics": {
+        "title": "التحليلات",
+        "description": "لوحات مؤشرات لحظية"
+      },
+      "performance": {
+        "title": "الأداء الدراسي",
+        "description": "متابعة النتائج حسب الفصول"
+      },
+      "roles": {
+        "title": "إدارة الصلاحيات",
+        "description": "إنشاء وإدارة حسابات المساعدين"
+      },
+      "financialReports": {
+        "title": "التقارير المالية",
+        "description": "عرض كامل للإيرادات والمصاريف والرصيد"
+      },
+      "planning": {
+        "title": "التخطيط",
+        "description": "إدارة الأحداث والجداول"
+      },
+      "documents": {
+        "title": "الوثائق",
+        "description": "الوصول إلى الوثائق المهمة وإدارتها"
+      }
+    },
+    "screens": {
+      "stats": "إحصائيات",
+      "finance": "مالية",
+      "reports": "الأدوار والصلاحيات"
+    },
     "cta": {
       "title": "هل أنت مستعد لتبسيط عملك؟",
       "subtitle": "اكتشف كيف يمكن لـ OmniSchool تحسين إدارة مدرستك",
@@ -419,10 +534,22 @@
       },
       "form": {
         "title": "أرسل لنا رسالة",
-        "firstName": { "label": "الاسم", "placeholder": "اسمك" },
-        "lastName": { "label": "اللقب", "placeholder": "لقبك" },
-        "email": { "label": "البريد الإلكتروني", "placeholder": "name@email.com" },
-        "phone": { "label": "الهاتف", "placeholder": "+216 XX XXX XXX" },
+        "firstName": {
+          "label": "الاسم",
+          "placeholder": "اسمك"
+        },
+        "lastName": {
+          "label": "اللقب",
+          "placeholder": "لقبك"
+        },
+        "email": {
+          "label": "البريد الإلكتروني",
+          "placeholder": "name@email.com"
+        },
+        "phone": {
+          "label": "الهاتف",
+          "placeholder": "+216 XX XXX XXX"
+        },
         "subject": {
           "label": "الموضوع",
           "placeholder": "اختر موضوعًا...",
@@ -435,7 +562,10 @@
             "other": "موضوع آخر"
           }
         },
-        "message": { "label": "الرسالة", "placeholder": "كيف يمكننا مساعدتك؟" },
+        "message": {
+          "label": "الرسالة",
+          "placeholder": "كيف يمكننا مساعدتك؟"
+        },
         "submitting": "جارٍ الإرسال...",
         "submit": "إرسال الرسالة →"
       },
@@ -449,7 +579,6 @@
         "addressLabel": "العنوان",
         "addressValue": "تونس، تونس",
         "emailLabel": "البريد الإلكتروني",
-        "phoneLabel": "الهاتف",
         "hoursLabel": "ساعات العمل",
         "hoursValue": "الاثنين — الجمعة: 8:00 — 17:00"
       },
@@ -512,7 +641,7 @@
       "instagram": "إنستغرام"
     },
     "copyright": "© OmniSchool. جميع الحقوق محفوظة.",
-    "poweredBy": "بدعم من OmniSchool",
+    "poweredBy": "بدعم من OmniLinks",
     "legal": {
       "privacy": "سياسة الخصوصية",
       "terms": "شروط الاستخدام"
@@ -532,17 +661,34 @@
     },
     "contact": {
       "email": "contact@omnischool.tn",
-      "phone": "+216 XX XXX XXX",
       "location": "تونس، تونس"
     },
     "form": {
       "title": "معلومات حول مدرستك",
-      "firstName": { "label": "الاسم", "placeholder": "اسمك" },
-      "lastName": { "label": "اللقب", "placeholder": "لقبك" },
-      "schoolName": { "label": "اسم المدرسة", "placeholder": "مثال: مدرسة خاصة الزيتون" },
-      "email": { "label": "البريد الإلكتروني", "placeholder": "name@email.com" },
-      "phone": { "label": "الهاتف", "placeholder": "+216 XX XXX XXX" },
-      "city": { "label": "المدينة", "placeholder": "مثال: تونس، صفاقس..." },
+      "firstName": {
+        "label": "الاسم",
+        "placeholder": "اسمك"
+      },
+      "lastName": {
+        "label": "اللقب",
+        "placeholder": "لقبك"
+      },
+      "schoolName": {
+        "label": "اسم المدرسة",
+        "placeholder": "مثال: مدرسة خاصة الزيتون"
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "name@email.com"
+      },
+      "phone": {
+        "label": "الهاتف",
+        "placeholder": "+216 XX XXX XXX"
+      },
+      "city": {
+        "label": "المدينة",
+        "placeholder": "مثال: تونس، صفاقس..."
+      },
       "studentCount": {
         "label": "عدد الطلاب",
         "options": {
@@ -563,7 +709,10 @@
           "manager": "لوحة المدير"
         }
       },
-      "message": { "label": "رسالة (اختياري)", "placeholder": "أخبرنا أكثر عن مدرستك واحتياجاتك..." },
+      "message": {
+        "label": "رسالة (اختياري)",
+        "placeholder": "أخبرنا أكثر عن مدرستك واحتياجاتك..."
+      },
       "submit": {
         "label": "إرسال طلب العرض →",
         "submitting": "جارٍ الإرسال…"

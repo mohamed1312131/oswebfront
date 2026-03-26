@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
-import { CheckCircle, Mail, Phone, MapPin, LayoutDashboard, GraduationCap, Users, BarChart2 } from 'lucide-react';
+import { CheckCircle, Mail, MapPin, LayoutDashboard, GraduationCap, Users, BarChart2 } from 'lucide-react';
 import { Link } from 'react-router';
 import { API_BASE_URL } from '../lib/api';
 import { useTranslation } from 'react-i18next';
@@ -10,6 +10,11 @@ import { useTranslation } from 'react-i18next';
 export default function BookDemo() {
   const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 10);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [formData, setFormData] = useState({
     firstName: '',
@@ -228,11 +233,7 @@ export default function BookDemo() {
                   <Mail size={18} style={{ color: '#2D472C', flexShrink: 0 }} />
                   <span style={{ fontSize: '14px', color: '#6B7280' }}>{t('bookDemo.contact.email')}</span>
                 </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                  <Phone size={18} style={{ color: '#2D472C', flexShrink: 0 }} />
-                  <span style={{ fontSize: '14px', color: '#6B7280' }}>{t('bookDemo.contact.phone')}</span>
-                </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+<div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
                   <MapPin size={18} style={{ color: '#2D472C', flexShrink: 0 }} />
                   <span style={{ fontSize: '14px', color: '#6B7280' }}>{t('bookDemo.contact.location')}</span>
                 </div>

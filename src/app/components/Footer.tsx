@@ -1,4 +1,4 @@
-import { Facebook, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import { Facebook, Linkedin, Instagram, Mail, MapPin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router';
 
@@ -120,13 +120,7 @@ export function Footer() {
                   {t('footer.contact.email')}
                 </a>
               </li>
-              <li className="flex items-start gap-3">
-                <Phone size={16} style={{ color: '#C5A059', marginTop: '2px', flexShrink: 0 }} />
-                <a href="tel:+21612345678" className="text-sm transition-opacity duration-200 hover:opacity-70" style={{ color: 'rgba(255, 255, 255, 0.6)' }}>
-                  {t('footer.contact.phone')}
-                </a>
-              </li>
-              <li className="flex items-start gap-3">
+<li className="flex items-start gap-3">
                 <MapPin size={16} style={{ color: '#C5A059', marginTop: '2px', flexShrink: 0 }} />
                 <span className="text-sm" style={{ color: 'rgba(255, 255, 255, 0.6)' }}>
                   {t('footer.contact.addressLine1')}<br />

@@ -126,10 +126,22 @@
       "subtitle": "Une plateforme complète qui supporte élèves, parents, enseignants et administration — à chaque étape de la vie scolaire.",
       "cta": "Réserver une Démo",
       "cards": {
-        "admin": { "alt": "Dashboard Admin", "badge": "Dashboard Admin" },
-        "timetable": { "alt": "Emploi du Temps IA", "badge": "Emploi du Temps IA" },
-        "teacher": { "alt": "App Enseignant", "badge": "App Enseignant" },
-        "parent": { "alt": "App Parent", "badge": "App Parent" }
+        "admin": {
+          "alt": "Dashboard Admin",
+          "badge": "Dashboard Admin"
+        },
+        "timetable": {
+          "alt": "Emploi du Temps IA",
+          "badge": "Emploi du Temps IA"
+        },
+        "teacher": {
+          "alt": "App Enseignant",
+          "badge": "App Enseignant"
+        },
+        "parent": {
+          "alt": "App Parent",
+          "badge": "App Parent"
+        }
       }
     },
     "userRoles": {
@@ -167,9 +179,18 @@
       "title": "Gagnez du temps pour enseigner",
       "subtitle": "Les enseignants passent trop de temps sur les tâches administratives. OmniSchool automatise les présences, les notes et la communication afin que chaque minute compte en classe.",
       "stats": [
-        { "number": "3x", "label": "Moins de paperasse" },
-        { "number": "80%", "label": "Temps gagné" },
-        { "number": "100%", "label": "Données centralisées" }
+        {
+          "number": "3x",
+          "label": "Moins de paperasse"
+        },
+        {
+          "number": "80%",
+          "label": "Temps gagné"
+        },
+        {
+          "number": "100%",
+          "label": "Données centralisées"
+        }
       ]
     },
     "vision": {
@@ -179,9 +200,18 @@
       "p2": "Inspirée des meilleures pratiques scandinaves, la plateforme simplifie l’administration et renforce la collaboration entre la direction, les enseignants et les familles.",
       "p3": "En réunissant gestion, communication et planification au même endroit, OmniSchool aide les écoles à travailler sereinement — et remet l’apprentissage au centre du quotidien.",
       "stats": [
-        { "value": "+50", "label": "Écoles ciblées" },
-        { "value": "100%", "label": "Tunisien & local" },
-        { "value": "1", "label": "Plateforme complète" }
+        {
+          "value": "+50",
+          "label": "Écoles ciblées"
+        },
+        {
+          "value": "100%",
+          "label": "Tunisien & local"
+        },
+        {
+          "value": "1",
+          "label": "Plateforme complète"
+        }
       ]
     }
   },
@@ -198,14 +228,35 @@
       "badge": "APERÇU",
       "title": "Les écrans de l'application"
     },
-    "featuresSection": { "badge": "FONCTIONNALITÉS", "title": "Tout ce dont l'Enseignant a Besoin" },
+    "featuresSection": {
+      "badge": "FONCTIONNALITÉS",
+      "title": "Tout ce dont l'Enseignant a Besoin"
+    },
     "features": {
-      "smartAttendance": { "title": "Présences Intelligentes", "description": "Marquez les présences par classe en quelques secondes" },
-      "syllabus": { "title": "Gestion du Syllabus", "description": "Planifiez et suivez votre programme par matière" },
-      "grades": { "title": "Saisie des Notes", "description": "Entrez les notes CC1, CC2 et examens finaux" },
-      "homework": { "title": "Publication des Devoirs", "description": "Partagez les devoirs avec les élèves et parents" },
-      "timetable": { "title": "Emploi du Temps", "description": "Consultez votre planning hebdomadaire en temps réel" },
-      "requests": { "title": "Demandes & Requêtes", "description": "Soumettez des demandes à l'administration" }
+      "smartAttendance": {
+        "title": "Présences Intelligentes",
+        "description": "Marquez les présences par classe en quelques secondes"
+      },
+      "syllabus": {
+        "title": "Gestion du Syllabus",
+        "description": "Planifiez et suivez votre programme par matière"
+      },
+      "grades": {
+        "title": "Saisie des Notes",
+        "description": "Entrez les notes CC1, CC2 et examens finaux"
+      },
+      "homework": {
+        "title": "Publication des Devoirs",
+        "description": "Partagez les devoirs avec les élèves et parents"
+      },
+      "timetable": {
+        "title": "Emploi du Temps",
+        "description": "Consultez votre planning hebdomadaire en temps réel"
+      },
+      "requests": {
+        "title": "Demandes & Requêtes",
+        "description": "Soumettez des demandes à l'administration"
+      }
     },
     "screens": {
       "calendar": "Calendrier de l'enseignant",
@@ -234,14 +285,35 @@
       "title": "Les écrans de l'application",
       "screenAlt": "Écran {{title}}"
     },
-    "featuresSection": { "badge": "FONCTIONNALITÉS", "title": "Tout ce dont le Parent a Besoin" },
+    "featuresSection": {
+      "badge": "FONCTIONNALITÉS",
+      "title": "Tout ce dont le Parent a Besoin"
+    },
     "features": {
-      "smartAttendance": { "title": "Présences Intelligentes", "description": "Marquéz les présences par classe en quéiques secondes" },
-      "syllabus": { "title": "Gestion du Syllabus", "description": "Planifiez et suives voire programme par matérré" },
-      "grades": { "title": "Saisie des Notes", "description": "Entrez les notes CC1, CC2 et examens finaux" },
-      "homework": { "title": "Publication des Devoirs", "description": "Partagez les devoirs avec les elères et parents" },
-      "timetable": { "title": "Emploi du Temps", "description": "Consultez voire planning hebdomadaire en temps réel" },
-      "requests": { "title": "Demandes & Requétes", "description": "Soumettez des demandes à l’administration" }
+      "smartAttendance": {
+        "title": "Présences Intelligentes",
+        "description": "Marquéz les présences par classe en quéiques secondes"
+      },
+      "syllabus": {
+        "title": "Gestion du Syllabus",
+        "description": "Planifiez et suives voire programme par matérré"
+      },
+      "grades": {
+        "title": "Saisie des Notes",
+        "description": "Entrez les notes CC1, CC2 et examens finaux"
+      },
+      "homework": {
+        "title": "Publication des Devoirs",
+        "description": "Partagez les devoirs avec les elères et parents"
+      },
+      "timetable": {
+        "title": "Emploi du Temps",
+        "description": "Consultez voire planning hebdomadaire en temps réel"
+      },
+      "requests": {
+        "title": "Demandes & Requétes",
+        "description": "Soumettez des demandes à l’administration"
+      }
     },
     "screens": {
       "smartCalendar": "Calendrier intelligent",
@@ -271,12 +343,30 @@
     "features": {
       "badge": "FONCTIONNALITÉS",
       "title": "Tout ce dont l’Assistant a Besoin",
-      "students": { "title": "Gestion des Élèves", "description": "Inscriptions, dossiers, historique et transferts" },
-      "teachers": { "title": "Gestion des Enseignants", "description": "Charges horaires, absences et remplacements" },
-      "timetable": { "title": "Emploi du Temps", "description": "Construction et gestion du planning hebdomadaire" },
-      "pdfReports": { "title": "Rapports PDF", "description": "Génération de bulletins, reçus et factures" },
-      "communication": { "title": "Communication", "description": "Annonces, demandes parents et enseignants" },
-      "finance": { "title": "Finance Complète", "description": "Frais scolaires, salaires, fournisseurs et rapports" }
+      "students": {
+        "title": "Gestion des Élèves",
+        "description": "Inscriptions, dossiers, historique et transferts"
+      },
+      "teachers": {
+        "title": "Gestion des Enseignants",
+        "description": "Charges horaires, absences et remplacements"
+      },
+      "timetable": {
+        "title": "Emploi du Temps",
+        "description": "Construction et gestion du planning hebdomadaire"
+      },
+      "pdfReports": {
+        "title": "Rapports PDF",
+        "description": "Génération de bulletins, reçus et factures"
+      },
+      "communication": {
+        "title": "Communication",
+        "description": "Annonces, demandes parents et enseignants"
+      },
+      "finance": {
+        "title": "Finance Complète",
+        "description": "Frais scolaires, salaires, fournisseurs et rapports"
+      }
     },
     "screens": {
       "badge": "APERÇU",
@@ -317,16 +407,41 @@
       "badge": "APERÇU",
       "title": "Les écrans du dashboard"
     },
-    "featuresSection": { "badge": "FONCTIONNALITÉS", "title": "Tout ce dont le Manager a Besoin" },
-    "features": {
-      "analytics": { "title": "Analyses & Statistiques", "description": "Tableaux de bord avec KPIs en temps réel" },
-      "performance": { "title": "Performance Scolaire", "description": "Suivez les résultats académiques par classe" },
-      "roles": { "title": "Gestion des Rôles", "description": "Créez et gérez les comptes assistants" },
-      "financialReports": { "title": "Rapports Financiers", "description": "Vue complète des revenus, dépenses et balance" },
-      "planning": { "title": "Planification", "description": "Gérez les événements et les horaires" },
-      "documents": { "title": "Documents", "description": "Accédez et gérez les documents importants" }
+    "featuresSection": {
+      "badge": "FONCTIONNALITÉS",
+      "title": "Tout ce dont le Manager a Besoin"
     },
-    "screens": { "stats": "Statistiques", "finance": "Finance", "reports": "Rôles & Accès" },
+    "features": {
+      "analytics": {
+        "title": "Analyses & Statistiques",
+        "description": "Tableaux de bord avec KPIs en temps réel"
+      },
+      "performance": {
+        "title": "Performance Scolaire",
+        "description": "Suivez les résultats académiques par classe"
+      },
+      "roles": {
+        "title": "Gestion des Rôles",
+        "description": "Créez et gérez les comptes assistants"
+      },
+      "financialReports": {
+        "title": "Rapports Financiers",
+        "description": "Vue complète des revenus, dépenses et balance"
+      },
+      "planning": {
+        "title": "Planification",
+        "description": "Gérez les événements et les horaires"
+      },
+      "documents": {
+        "title": "Documents",
+        "description": "Accédez et gérez les documents importants"
+      }
+    },
+    "screens": {
+      "stats": "Statistiques",
+      "finance": "Finance",
+      "reports": "Rôles & Accès"
+    },
     "cta": {
       "title": "Prêt à Simplifier votre Travail?",
       "subtitle": "Découvrez comment Omnischool peut transformer la gestion de votre école",
@@ -413,10 +528,22 @@
       },
       "form": {
         "title": "Envoyez-nous un Message",
-        "firstName": { "label": "Prénom", "placeholder": "Votre prénom" },
-        "lastName": { "label": "Nom", "placeholder": "Votre nom" },
-        "email": { "label": "Email", "placeholder": "votre@email.com" },
-        "phone": { "label": "Téléphone", "placeholder": "+216 XX XXX XXX" },
+        "firstName": {
+          "label": "Prénom",
+          "placeholder": "Votre prénom"
+        },
+        "lastName": {
+          "label": "Nom",
+          "placeholder": "Votre nom"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "votre@email.com"
+        },
+        "phone": {
+          "label": "Téléphone",
+          "placeholder": "+216 XX XXX XXX"
+        },
         "subject": {
           "label": "Sujet",
           "placeholder": "Sélectionner un sujet...",
@@ -429,7 +556,10 @@
             "other": "Autre"
           }
         },
-        "message": { "label": "Message", "placeholder": "Comment pouvons-nous vous aider?" },
+        "message": {
+          "label": "Message",
+          "placeholder": "Comment pouvons-nous vous aider?"
+        },
         "submitting": "Envoi...",
         "submit": "Envoyer le Message →"
       },
@@ -443,7 +573,6 @@
         "addressLabel": "Adresse",
         "addressValue": "Tunis, Tunisie",
         "emailLabel": "Email",
-        "phoneLabel": "Téléphone",
         "hoursLabel": "Horaires",
         "hoursValue": "Lun — Ven: 8h00 — 17h00"
       },
@@ -488,17 +617,34 @@
     },
     "contact": {
       "email": "contact@omnischool.tn",
-      "phone": "+216 XX XXX XXX",
       "location": "Tunis, Tunisie"
     },
     "form": {
       "title": "Informations sur votre école",
-      "firstName": { "label": "Prénom", "placeholder": "Votre prénom" },
-      "lastName": { "label": "Nom", "placeholder": "Votre nom" },
-      "schoolName": { "label": "Nom de l'École", "placeholder": "Ex: École Privée Les Oliviers" },
-      "email": { "label": "Email", "placeholder": "votre@email.com" },
-      "phone": { "label": "Téléphone", "placeholder": "+216 XX XXX XXX" },
-      "city": { "label": "Ville", "placeholder": "Ex: Tunis, Sfax..." },
+      "firstName": {
+        "label": "Prénom",
+        "placeholder": "Votre prénom"
+      },
+      "lastName": {
+        "label": "Nom",
+        "placeholder": "Votre nom"
+      },
+      "schoolName": {
+        "label": "Nom de l'École",
+        "placeholder": "Ex: École Privée Les Oliviers"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "votre@email.com"
+      },
+      "phone": {
+        "label": "Téléphone",
+        "placeholder": "+216 XX XXX XXX"
+      },
+      "city": {
+        "label": "Ville",
+        "placeholder": "Ex: Tunis, Sfax..."
+      },
       "studentCount": {
         "label": "Nombre d'Élèves",
         "options": {
@@ -519,7 +665,10 @@
           "manager": "Dashboard Manager"
         }
       },
-      "message": { "label": "Message (optionnel)", "placeholder": "Dites-nous en plus sur votre école et vos besoins..." },
+      "message": {
+        "label": "Message (optionnel)",
+        "placeholder": "Dites-nous en plus sur votre école et vos besoins..."
+      },
       "submit": {
         "label": "Envoyer ma Demande de Démo →",
         "submitting": "Envoi en cours…"

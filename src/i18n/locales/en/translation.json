@@ -125,10 +125,22 @@
       "subtitle": "A complete platform that supports students, parents, teachers and administration — at every stage of school life.",
       "cta": "Book a demo",
       "cards": {
-        "admin": { "alt": "Admin dashboard", "badge": "Admin dashboard" },
-        "timetable": { "alt": "AI timetable", "badge": "AI timetable" },
-        "teacher": { "alt": "Teacher app", "badge": "Teacher app" },
-        "parent": { "alt": "Parent app", "badge": "Parent app" }
+        "admin": {
+          "alt": "Admin dashboard",
+          "badge": "Admin dashboard"
+        },
+        "timetable": {
+          "alt": "AI timetable",
+          "badge": "AI timetable"
+        },
+        "teacher": {
+          "alt": "Teacher app",
+          "badge": "Teacher app"
+        },
+        "parent": {
+          "alt": "Parent app",
+          "badge": "Parent app"
+        }
       }
     },
     "userRoles": {
@@ -163,9 +175,18 @@
       "p2": "Inspired by the best Scandinavian practices, the platform simplifies administration and strengthens collaboration between management, teachers and families.",
       "p3": "By bringing together management, communication and planning in one place, OmniSchool helps schools operate with peace of mind — and puts learning back at the center of everyday life.",
       "stats": [
-        { "value": "+50", "label": "Targeted schools" },
-        { "value": "100%", "label": "Tunisian & local" },
-        { "value": "1", "label": "Complete platform" }
+        {
+          "value": "+50",
+          "label": "Targeted schools"
+        },
+        {
+          "value": "100%",
+          "label": "Tunisian & local"
+        },
+        {
+          "value": "1",
+          "label": "Complete platform"
+        }
       ]
     },
     "timeForTeaching": {
@@ -178,9 +199,18 @@
       "title": "Save time for teaching",
       "subtitle": "Teachers spend too much time on administrative tasks. OmniSchool automates attendance, grades and communication so every minute counts in class.",
       "stats": [
-        { "number": "3x", "label": "Less paperwork" },
-        { "number": "80%", "label": "Time saved" },
-        { "number": "100%", "label": "Centralized data" }
+        {
+          "number": "3x",
+          "label": "Less paperwork"
+        },
+        {
+          "number": "80%",
+          "label": "Time saved"
+        },
+        {
+          "number": "100%",
+          "label": "Centralized data"
+        }
       ]
     }
   },
@@ -197,14 +227,35 @@
       "badge": "PREVIEW",
       "title": "App screens"
     },
-    "featuresSection": { "badge": "FEATURES", "title": "Everything teachers need" },
+    "featuresSection": {
+      "badge": "FEATURES",
+      "title": "Everything teachers need"
+    },
     "features": {
-      "smartAttendance": { "title": "Smart attendance", "description": "Mark attendance per class in seconds" },
-      "syllabus": { "title": "Syllabus management", "description": "Plan and track your program by subject" },
-      "grades": { "title": "Grade entry", "description": "Enter CC1, CC2 and final exam grades" },
-      "homework": { "title": "Homework publishing", "description": "Share homework with students and parents" },
-      "timetable": { "title": "Timetable", "description": "View your weekly schedule in real time" },
-      "requests": { "title": "Requests", "description": "Submit requests to the administration" }
+      "smartAttendance": {
+        "title": "Smart attendance",
+        "description": "Mark attendance per class in seconds"
+      },
+      "syllabus": {
+        "title": "Syllabus management",
+        "description": "Plan and track your program by subject"
+      },
+      "grades": {
+        "title": "Grade entry",
+        "description": "Enter CC1, CC2 and final exam grades"
+      },
+      "homework": {
+        "title": "Homework publishing",
+        "description": "Share homework with students and parents"
+      },
+      "timetable": {
+        "title": "Timetable",
+        "description": "View your weekly schedule in real time"
+      },
+      "requests": {
+        "title": "Requests",
+        "description": "Submit requests to the administration"
+      }
     },
     "screens": {
       "calendar": "Teacher calendar",
@@ -233,14 +284,35 @@
       "title": "App screens",
       "screenAlt": "Screen {{title}}"
     },
-    "featuresSection": { "badge": "FEATURES", "title": "Everything parents need" },
+    "featuresSection": {
+      "badge": "FEATURES",
+      "title": "Everything parents need"
+    },
     "features": {
-      "smartAttendance": { "title": "Smart attendance", "description": "Track attendance quickly" },
-      "syllabus": { "title": "Syllabus", "description": "Follow subject progress" },
-      "grades": { "title": "Grades", "description": "View continuous assessment and exam grades" },
-      "homework": { "title": "Homework", "description": "View homework and attachments" },
-      "timetable": { "title": "Timetable", "description": "See the weekly timetable" },
-      "requests": { "title": "Requests", "description": "Send requests to the school" }
+      "smartAttendance": {
+        "title": "Smart attendance",
+        "description": "Track attendance quickly"
+      },
+      "syllabus": {
+        "title": "Syllabus",
+        "description": "Follow subject progress"
+      },
+      "grades": {
+        "title": "Grades",
+        "description": "View continuous assessment and exam grades"
+      },
+      "homework": {
+        "title": "Homework",
+        "description": "View homework and attachments"
+      },
+      "timetable": {
+        "title": "Timetable",
+        "description": "See the weekly timetable"
+      },
+      "requests": {
+        "title": "Requests",
+        "description": "Send requests to the school"
+      }
     },
     "screens": {
       "smartCalendar": "Smart calendar",
@@ -270,12 +342,30 @@
     "features": {
       "badge": "FEATURES",
       "title": "Everything an Assistant Needs",
-      "students": { "title": "Student management", "description": "Enrollment, records, history and transfers" },
-      "teachers": { "title": "Teacher management", "description": "Teaching load, absences and replacements" },
-      "timetable": { "title": "Timetable", "description": "Build and manage weekly schedules" },
-      "pdfReports": { "title": "PDF reports", "description": "Generate report cards, receipts and invoices" },
-      "communication": { "title": "Communication", "description": "Announcements and parent/teacher requests" },
-      "finance": { "title": "Full finance", "description": "School fees, salaries, suppliers and reports" }
+      "students": {
+        "title": "Student management",
+        "description": "Enrollment, records, history and transfers"
+      },
+      "teachers": {
+        "title": "Teacher management",
+        "description": "Teaching load, absences and replacements"
+      },
+      "timetable": {
+        "title": "Timetable",
+        "description": "Build and manage weekly schedules"
+      },
+      "pdfReports": {
+        "title": "PDF reports",
+        "description": "Generate report cards, receipts and invoices"
+      },
+      "communication": {
+        "title": "Communication",
+        "description": "Announcements and parent/teacher requests"
+      },
+      "finance": {
+        "title": "Full finance",
+        "description": "School fees, salaries, suppliers and reports"
+      }
     },
     "screens": {
       "badge": "PREVIEW",
@@ -316,14 +406,35 @@
       "badge": "PREVIEW",
       "title": "Dashboard screens"
     },
-    "featuresSection": { "badge": "FEATURES", "title": "Everything managers need" },
+    "featuresSection": {
+      "badge": "FEATURES",
+      "title": "Everything managers need"
+    },
     "features": {
-      "analytics": { "title": "Analytics", "description": "Dashboards with real-time KPIs" },
-      "performance": { "title": "School performance", "description": "Track academic results by class" },
-      "roles": { "title": "Role management", "description": "Create and manage assistant accounts" },
-      "financialReports": { "title": "Financial reports", "description": "Complete view of revenue, expenses, and balance" },
-      "planning": { "title": "Planning", "description": "Manage events and schedules" },
-      "documents": { "title": "Documents", "description": "Access and manage important documents" }
+      "analytics": {
+        "title": "Analytics",
+        "description": "Dashboards with real-time KPIs"
+      },
+      "performance": {
+        "title": "School performance",
+        "description": "Track academic results by class"
+      },
+      "roles": {
+        "title": "Role management",
+        "description": "Create and manage assistant accounts"
+      },
+      "financialReports": {
+        "title": "Financial reports",
+        "description": "Complete view of revenue, expenses, and balance"
+      },
+      "planning": {
+        "title": "Planning",
+        "description": "Manage events and schedules"
+      },
+      "documents": {
+        "title": "Documents",
+        "description": "Access and manage important documents"
+      }
     },
     "screens": {
       "stats": "Statistics",
@@ -423,10 +534,22 @@
       },
       "form": {
         "title": "Send us a message",
-        "firstName": { "label": "First name", "placeholder": "Your first name" },
-        "lastName": { "label": "Last name", "placeholder": "Your last name" },
-        "email": { "label": "Email", "placeholder": "your@email.com" },
-        "phone": { "label": "Phone", "placeholder": "+216 XX XXX XXX" },
+        "firstName": {
+          "label": "First name",
+          "placeholder": "Your first name"
+        },
+        "lastName": {
+          "label": "Last name",
+          "placeholder": "Your last name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "your@email.com"
+        },
+        "phone": {
+          "label": "Phone",
+          "placeholder": "+216 XX XXX XXX"
+        },
         "subject": {
           "label": "Subject",
           "placeholder": "Select a subject...",
@@ -439,7 +562,10 @@
             "other": "Other"
           }
         },
-        "message": { "label": "Message", "placeholder": "How can we help you?" },
+        "message": {
+          "label": "Message",
+          "placeholder": "How can we help you?"
+        },
         "submitting": "Sending...",
         "submit": "Send message →"
       },
@@ -453,7 +579,6 @@
         "addressLabel": "Address",
         "addressValue": "Tunis, Tunisia",
         "emailLabel": "Email",
-        "phoneLabel": "Phone",
         "hoursLabel": "Hours",
         "hoursValue": "Mon — Fri: 8:00 — 17:00"
       },
@@ -516,7 +641,7 @@
       "instagram": "Instagram"
     },
     "copyright": "© OmniSchool. All rights reserved.",
-    "poweredBy": "Powered by OmniSchool",
+    "poweredBy": "Powered by OmniLinks",
     "legal": {
       "privacy": "Privacy policy",
       "terms": "Terms of service"
@@ -536,17 +661,34 @@
     },
     "contact": {
       "email": "contact@omnischool.tn",
-      "phone": "+216 XX XXX XXX",
       "location": "Tunis, Tunisia"
     },
     "form": {
       "title": "School information",
-      "firstName": { "label": "First name", "placeholder": "Your first name" },
-      "lastName": { "label": "Last name", "placeholder": "Your last name" },
-      "schoolName": { "label": "School name", "placeholder": "e.g., Private School Les Oliviers" },
-      "email": { "label": "Email", "placeholder": "your@email.com" },
-      "phone": { "label": "Phone", "placeholder": "+216 XX XXX XXX" },
-      "city": { "label": "City", "placeholder": "e.g., Tunis, Sfax..." },
+      "firstName": {
+        "label": "First name",
+        "placeholder": "Your first name"
+      },
+      "lastName": {
+        "label": "Last name",
+        "placeholder": "Your last name"
+      },
+      "schoolName": {
+        "label": "School name",
+        "placeholder": "e.g., Private School Les Oliviers"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "your@email.com"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "+216 XX XXX XXX"
+      },
+      "city": {
+        "label": "City",
+        "placeholder": "e.g., Tunis, Sfax..."
+      },
       "studentCount": {
         "label": "Number of students",
         "options": {
@@ -567,7 +709,10 @@
           "manager": "Manager Dashboard"
         }
       },
-      "message": { "label": "Message (optional)", "placeholder": "Tell us more about your school and needs..." },
+      "message": {
+        "label": "Message (optional)",
+        "placeholder": "Tell us more about your school and needs..."
+      },
       "submit": {
         "label": "Send my demo request →",
         "submitting": "Sending…"

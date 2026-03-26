@@ -33,7 +33,9 @@
       "Bash(awk 'NR>=371 && NR<=375' src/app/pages/ParentApp.tsx)",
       "Bash(awk 'NR>=458 && NR<=462' src/app/pages/AssistantDashboard.tsx)",
       "Bash(awk 'NR>=296 && NR<=300' src/app/pages/ManagerDashboard.tsx)",
-      "Bash(node node_modules/typescript/bin/tsc --noEmit)"
+      "Bash(node node_modules/typescript/bin/tsc --noEmit)",
+      "Bash(python3 -c \":*)",
+      "Bash(python3:*)"
     ]
   }
 }
